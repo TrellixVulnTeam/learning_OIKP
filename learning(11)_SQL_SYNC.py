@@ -1,15 +1,11 @@
 import cx_Oracle
 import sys
-from functools import reduce
-
 
 class Table:
-    current_table = []
-
     @staticmethod
     def connector():
         dsn = cx_Oracle.makedsn("localhost", 1521, service_name="xe")
-        connection = cx_Oracle.connect(user="SCOTT",password="TIGER", dsn=dsn, encoding="UTF-8")
+        connection = cx_Oracle.connect(user="MYDB",password="admin1234", dsn=dsn, encoding="UTF-8")
         cursor = connection.cursor()
         return cursor
 
@@ -38,7 +34,7 @@ class Table:
     #각자의 태스크 진짜 테이블을 출력하도록 만들어보자.
 
     @staticmethod
-    def CRUD(query):
+    def CREATE(query):
         cursor= Table.connector()
         #SELECT, UPDATE, DELETE, INSERT
         #CREATE, ALTER, DROP, TRUNCATE, MERGE
@@ -51,7 +47,6 @@ class Table:
                         break
                     else:
                         str += i
-                Table.current_table.append(str)
         except Exception as E:
             B = sys.exc_info()[1]
             print(B)
@@ -70,7 +65,7 @@ def query2(query):
 '''
 
 
-print(dir(Table))
+#Table.CRUD("CREATE TABLE EUN (ID NUMBER(2), NAME VARCHAR2(5))")
+#Table.CRUD("commit")
 
-
-#query("SELECT * FROM EMP")
+Table.query("SELECT * FROM EMP")

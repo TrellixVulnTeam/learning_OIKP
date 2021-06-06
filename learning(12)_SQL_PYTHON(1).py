@@ -1,9 +1,5 @@
-#filing
-
-
 import cx_Oracle
 import pickle
-from collections import defaultdict
 import json
 
 def connector():
@@ -53,10 +49,6 @@ def write03(query): #json 형식 구현
         i["HIREDATE"] = "/".join(map(str, [i["HIREDATE"].year, i["HIREDATE"].month, i["HIREDATE"].day]))
         hash["result"].append(i)
     json.dump(hash,fp=file,indent=4,sort_keys=True)
-
-
-
-
 
 
 def read():
