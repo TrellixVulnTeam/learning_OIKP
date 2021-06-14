@@ -1,0 +1,6 @@
+Faker
+pandas
+bs4
+pymongo
+requests
+lxml

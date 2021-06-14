@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bookmark>
+    <site>
+        <name>google</name>
+        <url>http://www.google.co.kr/</url>
+    </site>
+    <site>
+        <name>naver</name>
+        <url>http://www.naver.co.kr/</url>
+    </site>
+        <site>
+        <name>daum</name>
+        <url>http://www.daum.net/</url>
+    </site>
+</bookmark>

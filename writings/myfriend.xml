@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<friends>
+    <address>
+        <name>Dominica</name>
+        <addr>Seoul</addr>
+    </address>
+    <address>
+        <name>Domi</name>
+        <addr>Toronto</addr>
+    </address>
+    <address>
+        <name>Ruri</name>
+        <addr>Alberta</addr>
+    </address>
+    <address>
+        <name>Ruse</name>
+        <addr>Alberta</addr>
+    </address>
+</friends>

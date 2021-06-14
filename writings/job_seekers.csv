@@ -1,0 +1,501 @@
+,first_name,last_name,skills,state,specialty_exper,relocation
+0,Margaret,Mcdonald,"['skLearn', 'Java', 'R', 'SQL', 'Spark', 'C++']",WA,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+1,Michael,Carter,"['TensorFlow', 'R', 'Spark', 'MongoDB', 'C++', 'SQL']",GA,"({'specialty': 'Database'}, {'experience': 'Mid'})",no
+2,Brenda,Tyler,['Spark'],MT,"({'specialty': 'Database'}, {'experience': 'Senior'})",maybe
+3,Joseph,King,"['skLearn', 'SQL', 'R', 'Spark', 'Java', 'C++', 'Python', 'TensorFlow']",OK,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+4,Laura,Webb,"['TensorFlow', 'C++', 'SQL', 'Java', 'R', 'MongoDB']",SC,"({'specialty': 'Database'}, {'experience': 'Junior'})",no
+5,Cheryl,Ramirez,"['C++', 'Python', 'R', 'Java', 'skLearn', 'SQL', 'MongoDB', 'Spark', 'TensorFlow']",KS,"({'specialty': 'Database'}, {'experience': 'Junior'})",maybe
+6,Charles,Stewart,"['MongoDB', 'C++', 'Java', 'SQL', 'R', 'Python', 'skLearn']",CA,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",yes
+7,Bradley,Peterson,"['skLearn', 'MongoDB', 'Spark']",AR,"({'specialty': 'Database'}, {'experience': 'Junior'})",yes
+8,William,Lin,"['Python', 'skLearn', 'R']",NV,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+9,Richard,Woods,"['skLearn', 'MongoDB']",SC,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+10,Robert,Rivera,"['Java', 'skLearn', 'Python', 'Spark', 'TensorFlow', 'C++', 'SQL']",NV,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+11,Tanya,Schultz,"['SQL', 'MongoDB', 'R', 'C++', 'Spark', 'TensorFlow']",GA,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+12,Scott,Nunez,"['skLearn', 'Java', 'SQL', 'C++', 'Spark', 'MongoDB']",TX,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+13,Brett,Hoffman,"['Java', 'TensorFlow', 'C++']",AK,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+14,Sean,Williams,"['SQL', 'MongoDB', 'R', 'Spark']",IN,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+15,Steven,Craig,"['TensorFlow', 'SQL']",AL,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+16,Mr.,James,"['TensorFlow', 'Java', 'MongoDB', 'Python', 'Spark', 'C++', 'R', 'skLearn', 'SQL']",WA,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+17,Linda,Griffin,"['TensorFlow', 'Spark', 'skLearn', 'SQL', 'Python', 'MongoDB', 'C++', 'Java', 'R']",MO,"({'specialty': 'Database'}, {'experience': 'Senior'})",no
+18,Jacob,Espinoza,['skLearn'],NY,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+19,Nicole,Martin,"['Java', 'SQL']",IA,"({'specialty': 'Database'}, {'experience': 'Junior'})",no
+20,James,Mosley,"['TensorFlow', 'Python', 'C++', 'R', 'Java']",IN,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+21,Whitney,Erickson,"['SQL', 'MongoDB', 'Java', 'Python', 'TensorFlow']",GA,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+22,Rachel,Walker,"['Python', 'TensorFlow', 'MongoDB', 'R', 'skLearn', 'SQL', 'Java', 'Spark', 'C++']",IA,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",maybe
+23,Mitchell,Nash,"['Spark', 'R']",SC,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+24,Michael,Williams,"['TensorFlow', 'SQL', 'Python', 'Java', 'R', 'MongoDB', 'skLearn', 'Spark', 'C++']",IN,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",maybe
+25,Cory,Jones,"['TensorFlow', 'C++', 'Spark', 'MongoDB', 'R']",NC,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",maybe
+26,Mary,Sanford,"['SQL', 'TensorFlow', 'C++', 'R', 'Java', 'Python']",TX,"({'specialty': 'Database'}, {'experience': 'Senior'})",no
+27,Mary,Morgan,['R'],MN,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",yes
+28,Norma,Norris,"['R', 'C++']",OR,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+29,Briana,Mercado,"['Spark', 'R']",AK,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+30,Ashley,Hoover,"['Java', 'TensorFlow', 'SQL', 'MongoDB']",NV,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",no
+31,William,Novak,"['MongoDB', 'TensorFlow', 'Java', 'Python', 'C++', 'Spark', 'R']",CA,"({'specialty': 'Database'}, {'experience': 'Mid'})",no
+32,Donna,Cole,"['Spark', 'R', 'TensorFlow', 'SQL', 'C++']",AZ,"({'specialty': 'Database'}, {'experience': 'Junior'})",maybe
+33,Tiffany,Olson,['Spark'],IN,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+34,Luis,White,"['R', 'SQL', 'TensorFlow']",NV,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",yes
+35,Travis,Hawkins,['Spark'],KS,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",no
+36,Robin,Reilly,"['TensorFlow', 'C++', 'Java', 'MongoDB', 'skLearn', 'Python', 'SQL', 'R']",NJ,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+37,Christine,Walker,"['Python', 'C++', 'TensorFlow', 'Java', 'Spark', 'skLearn', 'MongoDB', 'SQL']",KS,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+38,April,Morgan,['R'],HI,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",yes
+39,Jeffrey,Wright,"['SQL', 'Python', 'TensorFlow', 'Spark', 'C++']",NE,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+40,Michael,Stewart,"['skLearn', 'SQL', 'C++', 'R']",GA,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+41,Jack,King,"['SQL', 'Java', 'R', 'skLearn', 'MongoDB', 'C++', 'Python']",TX,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+42,Amber,Gibbs,"['MongoDB', 'Java', 'TensorFlow', 'Spark']",LA,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+43,Sarah,Russell,"['SQL', 'R', 'Python', 'MongoDB', 'Java', 'skLearn', 'TensorFlow']",OH,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",no
+44,Carrie,Brown,"['Python', 'Java', 'TensorFlow', 'MongoDB']",SC,"({'specialty': 'Database'}, {'experience': 'Junior'})",maybe
+45,Elizabeth,Ramirez,"['Spark', 'C++', 'Java', 'R', 'MongoDB']",MI,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+46,Aaron,Ferguson,"['TensorFlow', 'SQL', 'MongoDB']",MA,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+47,Richard,Estrada,"['Java', 'TensorFlow', 'skLearn', 'R', 'C++', 'Python', 'Spark', 'MongoDB', 'SQL']",OH,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+48,Ann,Hall,"['TensorFlow', 'Java', 'SQL', 'R', 'Spark', 'MongoDB']",WI,"({'specialty': 'Database'}, {'experience': 'Senior'})",maybe
+49,Barbara,Chavez,"['Java', 'Python', 'SQL', 'MongoDB', 'Spark', 'C++', 'TensorFlow', 'R']",MO,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",no
+50,Neil,Maxwell,"['Python', 'Spark', 'R', 'TensorFlow', 'SQL', 'Java', 'C++']",IN,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+51,Sarah,Mcguire,"['MongoDB', 'SQL', 'Python', 'Spark']",NH,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+52,Tiffany,Ramsey,"['Python', 'MongoDB', 'Spark', 'R', 'skLearn', 'TensorFlow']",MS,"({'specialty': 'Database'}, {'experience': 'Mid'})",no
+53,Shawn,Hall,"['MongoDB', 'skLearn', 'C++', 'Python', 'R', 'Java', 'SQL']",GA,"({'specialty': 'Database'}, {'experience': 'Junior'})",yes
+54,Brett,Gonzalez,"['MongoDB', 'Java', 'SQL']",FL,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+55,Alexandra,Glover,"['Spark', 'TensorFlow']",TX,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+56,Nathan,Hancock,['C++'],VA,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",maybe
+57,Jennifer,Walker,"['SQL', 'TensorFlow', 'Java', 'skLearn', 'C++']",SD,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",yes
+58,Paul,Brady,"['MongoDB', 'TensorFlow', 'Java', 'SQL', 'C++', 'Python', 'Spark']",TX,"({'specialty': 'Database'}, {'experience': 'Senior'})",no
+59,James,Larson,"['skLearn', 'C++', 'R', 'Spark']",UT,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",yes
+60,Kimberly,Baldwin,['TensorFlow'],AR,"({'specialty': 'Database'}, {'experience': 'Mid'})",yes
+61,Paul,Miller,"['Java', 'R', 'SQL', 'TensorFlow', 'C++']",NC,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",maybe
+62,Andrea,Walters,"['Spark', 'Java', 'skLearn', 'R', 'Python', 'C++']",AR,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",no
+63,Samantha,Bradley,"['Python', 'Spark']",VA,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+64,Gregg,Hernandez,"['Java', 'Spark', 'SQL', 'R', 'Python', 'skLearn', 'TensorFlow', 'C++', 'MongoDB']",ID,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+65,James,Richardson,"['TensorFlow', 'Spark']",ID,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+66,Tammy,Miller,"['skLearn', 'R', 'TensorFlow', 'MongoDB', 'C++', 'Java']",PA,"({'specialty': 'Database'}, {'experience': 'Junior'})",maybe
+67,Tiffany,Jones,['SQL'],IL,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+68,Steven,Conway,"['TensorFlow', 'Java', 'R']",FL,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",maybe
+69,Matthew,Allen,"['C++', 'SQL', 'TensorFlow', 'Spark']",MN,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+70,Dennis,Chase,"['Python', 'Spark', 'skLearn', 'C++', 'MongoDB', 'R']",NY,"({'specialty': 'Database'}, {'experience': 'Mid'})",no
+71,Jennifer,Taylor,"['C++', 'SQL', 'TensorFlow', 'MongoDB', 'Java', 'Python', 'R', 'Spark', 'skLearn']",MT,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",no
+72,Douglas,Dennis,"['TensorFlow', 'Java', 'Python']",AL,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+73,Dawn,Walker,"['TensorFlow', 'Java', 'C++', 'skLearn', 'Python', 'R', 'MongoDB', 'SQL', 'Spark']",ND,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+74,Ashley,Wilson,"['Java', 'R', 'SQL', 'C++', 'Python', 'skLearn']",TX,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+75,Karen,Bryan,"['skLearn', 'R', 'TensorFlow', 'Spark', 'Java', 'MongoDB', 'Python']",NY,"({'specialty': 'Database'}, {'experience': 'Senior'})",no
+76,Michael,Carter,"['Java', 'C++']",CA,"({'specialty': 'Database'}, {'experience': 'Senior'})",maybe
+77,Karen,Olsen,"['skLearn', 'Spark', 'R', 'Java', 'Python', 'SQL', 'TensorFlow', 'MongoDB']",ME,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+78,Laura,White,"['Python', 'Java', 'SQL', 'skLearn', 'Spark', 'C++', 'R', 'TensorFlow']",PA,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",yes
+79,Mary,Torres,"['C++', 'SQL', 'Java', 'MongoDB', 'TensorFlow', 'R', 'Python', 'Spark', 'skLearn']",ND,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+80,Jennifer,Wiley,"['Java', 'C++', 'TensorFlow', 'SQL', 'MongoDB', 'R', 'Python']",DE,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+81,Jack,Chavez,['Spark'],LA,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+82,Tammy,Hoover,"['Spark', 'C++', 'TensorFlow', 'R', 'SQL']",WI,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+83,Kayla,Johnson,"['TensorFlow', 'Java', 'R', 'C++']",MN,"({'specialty': 'Database'}, {'experience': 'Senior'})",no
+84,Roy,Morgan,"['Python', 'R', 'skLearn']",FL,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+85,Rebecca,Jones,"['Python', 'R', 'Java', 'SQL', 'TensorFlow', 'Spark', 'MongoDB', 'skLearn']",NC,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+86,Stephanie,Ingram,['MongoDB'],NY,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",no
+87,Mark,Downs,"['skLearn', 'MongoDB', 'C++', 'Java', 'Python', 'Spark', 'SQL', 'R', 'TensorFlow']",NH,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+88,Sharon,Taylor,"['MongoDB', 'R']",NY,"({'specialty': 'Database'}, {'experience': 'Mid'})",yes
+89,Karen,Carter,"['Java', 'SQL', 'MongoDB', 'TensorFlow']",ME,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",yes
+90,Michael,Brown,"['skLearn', 'Spark', 'MongoDB']",WY,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",maybe
+91,David,Sanchez,['skLearn'],CO,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+92,Nicholas,Greene,"['C++', 'skLearn']",ND,"({'specialty': 'Database'}, {'experience': 'Junior'})",no
+93,Suzanne,Tran,['MongoDB'],NY,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",yes
+94,Shawna,Simpson,"['Python', 'TensorFlow', 'R', 'Spark', 'Java', 'C++', 'SQL', 'MongoDB']",SD,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",yes
+95,Brittany,Miller,"['R', 'skLearn', 'Java', 'SQL', 'Python', 'TensorFlow', 'Spark', 'C++']",IL,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+96,Roy,Johnson,"['C++', 'TensorFlow', 'SQL', 'R', 'Python']",MA,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",maybe
+97,Melissa,Hart,"['Java', 'skLearn', 'Python', 'SQL', 'TensorFlow', 'C++']",HI,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+98,George,Fitzpatrick,"['SQL', 'C++', 'Spark', 'R', 'skLearn', 'Python', 'MongoDB', 'TensorFlow', 'Java']",CT,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",no
+99,Krista,Smith,"['SQL', 'Python', 'TensorFlow', 'skLearn', 'MongoDB', 'Java', 'R']",KY,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+100,Zachary,Hunter,"['Python', 'Java', 'R', 'SQL', 'Spark', 'skLearn', 'C++', 'TensorFlow']",FL,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+101,Valerie,Perry,"['C++', 'Java', 'SQL', 'R', 'skLearn', 'Spark', 'MongoDB']",TN,"({'specialty': 'Database'}, {'experience': 'Mid'})",no
+102,Theresa,Martinez,"['Python', 'SQL', 'MongoDB', 'C++', 'TensorFlow', 'skLearn']",KY,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",no
+103,Gloria,Rivera,"['R', 'SQL', 'Java', 'MongoDB', 'skLearn', 'Python', 'TensorFlow', 'Spark', 'C++']",ND,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",yes
+104,Denise,Gonzalez,"['R', 'Spark', 'C++', 'Java', 'SQL', 'Python', 'TensorFlow']",CO,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+105,Deborah,Garcia,"['SQL', 'Python', 'TensorFlow', 'Spark', 'Java']",KS,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+106,Kevin,Campbell,"['Python', 'skLearn', 'C++', 'R', 'Spark', 'Java', 'SQL', 'TensorFlow', 'MongoDB']",IN,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",yes
+107,Jeffrey,Herman,"['R', 'skLearn', 'Spark']",WV,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",yes
+108,Emily,Gonzalez,"['TensorFlow', 'C++', 'MongoDB', 'skLearn']",NM,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+109,Jacqueline,Spencer,"['Java', 'Python', 'skLearn', 'R', 'MongoDB', 'C++', 'SQL', 'TensorFlow']",OK,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+110,Sarah,Porter,"['MongoDB', 'Python', 'skLearn', 'SQL', 'Java', 'TensorFlow']",ID,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+111,Rodney,Thompson,"['MongoDB', 'Python', 'Java', 'Spark', 'SQL', 'skLearn']",IA,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+112,Jennifer,Stewart,"['Python', 'Java', 'skLearn', 'R', 'Spark']",NE,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",maybe
+113,Michael,Wolfe,"['Python', 'skLearn', 'SQL']",MS,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+114,Shirley,Hurst,"['SQL', 'MongoDB', 'Python', 'C++', 'skLearn', 'TensorFlow', 'R', 'Spark', 'Java']",NM,"({'specialty': 'Database'}, {'experience': 'Senior'})",no
+115,Larry,Carney,"['C++', 'Spark', 'R', 'Python']",MS,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+116,Jacob,Harding,"['Python', 'MongoDB', 'Spark', 'TensorFlow', 'skLearn']",OR,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+117,Keith,Mcmillan,"['Spark', 'SQL']",AL,"({'specialty': 'Database'}, {'experience': 'Junior'})",maybe
+118,Christina,Wilson,['Spark'],MN,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+119,Danielle,Gray,"['Spark', 'skLearn', 'C++', 'R']",DE,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+120,Erin,Griffith,"['TensorFlow', 'SQL', 'Python']",OH,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",maybe
+121,Jonathan,Cameron,"['Spark', 'R', 'SQL', 'Java', 'MongoDB', 'skLearn']",ME,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+122,Thomas,Brown,"['Spark', 'MongoDB', 'SQL', 'TensorFlow']",WI,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",no
+123,Christina,Jones,"['R', 'skLearn', 'SQL', 'Java', 'C++']",SD,"({'specialty': 'Database'}, {'experience': 'Junior'})",maybe
+124,Wendy,Salas,"['MongoDB', 'SQL', 'Spark', 'C++', 'TensorFlow', 'Java']",ME,"({'specialty': 'Database'}, {'experience': 'Junior'})",yes
+125,Nicholas,Bartlett,"['Java', 'Spark', 'C++', 'SQL', 'MongoDB']",IN,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",maybe
+126,Ariel,Eaton,"['Spark', 'R', 'Java', 'TensorFlow']",AL,"({'specialty': 'Database'}, {'experience': 'Mid'})",yes
+127,Donald,Jefferson,"['C++', 'SQL', 'skLearn', 'Python', 'MongoDB', 'Spark']",AZ,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+128,Nathan,Sanders,"['Java', 'C++', 'R', 'Python']",OR,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+129,Ian,Russell,"['SQL', 'TensorFlow', 'R', 'MongoDB', 'C++', 'Java']",PA,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+130,James,Wiggins,"['Java', 'R', 'Python', 'SQL', 'TensorFlow', 'MongoDB']",GA,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+131,Olivia,Thomas,"['Python', 'C++']",DE,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+132,Victoria,Adkins,"['Spark', 'TensorFlow', 'Java', 'SQL', 'MongoDB']",OR,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+133,Kevin,Murphy,"['Java', 'C++', 'TensorFlow', 'Spark', 'skLearn']",OH,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+134,Kevin,Robinson,"['skLearn', 'Java', 'MongoDB', 'TensorFlow', 'C++', 'Spark', 'Python']",NY,"({'specialty': 'Database'}, {'experience': 'Senior'})",maybe
+135,Whitney,Woods,"['skLearn', 'C++', 'Spark', 'R', 'Java']",MD,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+136,Norma,Foley,"['MongoDB', 'SQL', 'Spark', 'R', 'skLearn', 'Python', 'Java', 'TensorFlow', 'C++']",NH,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",yes
+137,Jose,Williams,"['Python', 'Spark', 'TensorFlow', 'Java', 'C++', 'SQL']",KY,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",maybe
+138,Daisy,Wright,"['R', 'SQL', 'skLearn', 'MongoDB']",KY,"({'specialty': 'Database'}, {'experience': 'Junior'})",maybe
+139,Richard,Rojas,"['Java', 'Spark', 'SQL', 'skLearn']",MT,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",maybe
+140,Jennifer,Robinson,"['skLearn', 'MongoDB', 'Java', 'SQL']",CT,"({'specialty': 'Database'}, {'experience': 'Junior'})",yes
+141,Michael,Rice,"['Python', 'TensorFlow', 'Java', 'MongoDB']",MS,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",yes
+142,Bradley,Howard,"['C++', 'MongoDB']",KS,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+143,Tyler,Lee,"['Spark', 'Java']",NE,"({'specialty': 'Database'}, {'experience': 'Junior'})",no
+144,Samantha,Pham,['C++'],VT,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+145,Sandra,Ford,"['C++', 'Spark']",OK,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+146,Christine,Ferguson,"['Python', 'skLearn', 'Spark']",DE,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+147,Shawn,James,"['R', 'Python']",AZ,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+148,Zachary,Christian,"['Java', 'MongoDB', 'TensorFlow', 'R', 'SQL', 'C++', 'Spark']",CT,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+149,Elizabeth,Prince,['TensorFlow'],WA,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",maybe
+150,Nicholas,Bruce,"['R', 'Spark']",MN,"({'specialty': 'Database'}, {'experience': 'Senior'})",maybe
+151,Leonard,Green,"['Java', 'Spark']",KS,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+152,Deborah,Moss,"['Java', 'SQL', 'R', 'C++', 'skLearn', 'MongoDB', 'Python', 'Spark', 'TensorFlow']",NV,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+153,Curtis,Collins,"['C++', 'Python', 'TensorFlow', 'Spark']",KY,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",maybe
+154,Christopher,Page,"['TensorFlow', 'Spark', 'C++', 'R', 'SQL']",NJ,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+155,James,Mahoney,"['Spark', 'TensorFlow', 'Java', 'MongoDB', 'SQL', 'C++']",TN,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",maybe
+156,Vicki,Ellison,"['R', 'Spark', 'TensorFlow', 'Java', 'skLearn']",SC,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",no
+157,Lori,Finley,"['TensorFlow', 'Java', 'R', 'C++', 'skLearn', 'MongoDB', 'SQL']",FL,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+158,Benjamin,Anderson,"['R', 'SQL']",VT,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+159,Julie,Russell,"['TensorFlow', 'skLearn', 'SQL', 'Python', 'C++', 'R']",WV,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+160,Eugene,Jackson,['skLearn'],SC,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",yes
+161,Lisa,Berry,"['R', 'Python']",NV,"({'specialty': 'Database'}, {'experience': 'Senior'})",maybe
+162,Gregory,Murphy,"['MongoDB', 'C++', 'Spark', 'Python', 'TensorFlow', 'SQL', 'Java']",MA,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",no
+163,Tommy,Hawkins,"['skLearn', 'MongoDB', 'SQL', 'R', 'TensorFlow', 'Java']",VA,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+164,Jacqueline,Willis,"['MongoDB', 'SQL', 'Python', 'Spark', 'R', 'Java']",OK,"({'specialty': 'Database'}, {'experience': 'Junior'})",no
+165,Robert,Marshall,"['Java', 'TensorFlow', 'C++', 'skLearn', 'Python', 'MongoDB', 'Spark', 'SQL']",WY,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+166,Tamara,Mack,"['skLearn', 'TensorFlow', 'Python', 'Spark', 'Java', 'R']",WY,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",yes
+167,Charles,Hayden,"['MongoDB', 'C++']",ND,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+168,Patrick,Powell,"['C++', 'SQL', 'Python', 'TensorFlow', 'Spark', 'skLearn', 'R']",DE,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",no
+169,James,Davis,"['Python', 'TensorFlow']",KS,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+170,John,Hill,"['SQL', 'Python', 'Java', 'MongoDB']",UT,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+171,Jessica,Cortez,"['Python', 'MongoDB', 'R', 'Java', 'TensorFlow', 'skLearn']",NJ,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",yes
+172,Maria,Thompson,"['Spark', 'Python']",WY,"({'specialty': 'Database'}, {'experience': 'Senior'})",no
+173,Daniel,Mcgrath,"['R', 'Spark', 'SQL', 'Java']",CO,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",no
+174,Patrick,Fleming,"['skLearn', 'Spark', 'TensorFlow']",FL,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+175,John,Hogan,"['C++', 'skLearn', 'TensorFlow']",AR,"({'specialty': 'Database'}, {'experience': 'Junior'})",maybe
+176,Michael,Hansen,"['Spark', 'MongoDB', 'C++', 'Java']",CO,"({'specialty': 'Database'}, {'experience': 'Senior'})",maybe
+177,David,Phelps,"['skLearn', 'MongoDB']",TN,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+178,Matthew,Avila,"['R', 'TensorFlow', 'Spark', 'C++', 'Python', 'skLearn', 'MongoDB']",CA,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+179,Cindy,Hall,"['R', 'MongoDB', 'Java', 'Spark']",CA,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+180,Connor,Garcia,"['skLearn', 'SQL', 'Python', 'R']",FL,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+181,Teresa,Campbell,"['SQL', 'Python', 'Java', 'R', 'skLearn', 'TensorFlow', 'C++']",ND,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+182,Ashley,Smith,"['C++', 'Spark', 'R', 'Java', 'MongoDB', 'Python', 'skLearn', 'SQL']",KY,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+183,Benjamin,Edwards,"['TensorFlow', 'R', 'SQL']",AK,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+184,Debra,Gibson,['MongoDB'],KY,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+185,Amber,Moore,"['TensorFlow', 'Spark', 'Python', 'C++', 'SQL', 'R']",VA,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",yes
+186,Deanna,Diaz,"['TensorFlow', 'skLearn', 'R', 'C++', 'SQL', 'Spark', 'Python']",ME,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",yes
+187,Lucas,Williams,"['Java', 'skLearn', 'TensorFlow', 'SQL']",VA,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+188,Emily,Johnston,"['R', 'C++', 'Spark']",MA,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+189,Jill,Cox,"['Java', 'TensorFlow', 'skLearn', 'R', 'Spark', 'C++', 'SQL', 'MongoDB', 'Python']",OR,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",no
+190,Olivia,Montgomery,"['R', 'skLearn']",SD,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",maybe
+191,Stephanie,Peters,"['SQL', 'C++', 'Python', 'TensorFlow', 'Java', 'MongoDB', 'skLearn', 'R']",DE,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",no
+192,William,Jackson,"['MongoDB', 'TensorFlow', 'R']",OR,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+193,Christy,Robertson,['C++'],KS,"({'specialty': 'Database'}, {'experience': 'Junior'})",maybe
+194,Carolyn,Stephens,"['SQL', 'MongoDB']",CA,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+195,Joshua,Hall,"['SQL', 'Python', 'Spark', 'MongoDB', 'C++']",IL,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+196,Tracy,Brooks,"['Spark', 'Java']",LA,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+197,Kristy,Foster,"['R', 'SQL', 'Python', 'TensorFlow', 'C++', 'MongoDB', 'Java', 'Spark', 'skLearn']",AZ,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+198,Victoria,Clark,"['skLearn', 'Spark', 'TensorFlow', 'SQL', 'R']",VA,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+199,Dale,Herrera,"['Spark', 'TensorFlow', 'C++', 'skLearn', 'Java']",AK,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+200,Chris,Trujillo,"['C++', 'skLearn', 'SQL']",WA,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",yes
+201,Tina,Jones,"['C++', 'Python', 'TensorFlow', 'R', 'Spark', 'skLearn', 'Java']",MD,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+202,Kelly,Christensen,"['SQL', 'TensorFlow', 'MongoDB', 'R', 'Spark', 'C++', 'skLearn']",ID,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+203,Elizabeth,Moore,"['SQL', 'Python', 'Spark', 'C++', 'Java', 'R', 'MongoDB', 'skLearn']",VA,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+204,Corey,Moody,"['Spark', 'MongoDB', 'R', 'SQL']",AZ,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",yes
+205,Rachel,Davis,"['skLearn', 'Python', 'MongoDB', 'Spark']",NE,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+206,Jennifer,Pratt,"['R', 'skLearn', 'Python', 'Spark', 'MongoDB', 'C++']",KS,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",yes
+207,Scott,Taylor,"['Spark', 'TensorFlow', 'Java', 'MongoDB']",MS,"({'specialty': 'Database'}, {'experience': 'Mid'})",no
+208,Matthew,Cobb,"['SQL', 'R', 'TensorFlow', 'Spark', 'Java', 'C++', 'skLearn', 'Python', 'MongoDB']",RI,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",no
+209,Anthony,Bradley,"['R', 'C++', 'Java', 'Spark', 'TensorFlow', 'Python']",NV,"({'specialty': 'Database'}, {'experience': 'Mid'})",yes
+210,Michael,Farrell,"['Spark', 'Python', 'SQL', 'TensorFlow', 'Java', 'MongoDB', 'C++', 'skLearn']",MT,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+211,Andrew,Fleming,['Spark'],MT,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",yes
+212,Mary,Hall,['MongoDB'],MD,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+213,Catherine,Hunt,['Java'],VA,"({'specialty': 'Database'}, {'experience': 'Junior'})",yes
+214,James,Solomon,['Python'],FL,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+215,Carl,Chambers,"['TensorFlow', 'Python']",KY,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+216,Veronica,Cardenas,"['Spark', 'TensorFlow']",KY,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+217,Ian,Fox,"['skLearn', 'Python', 'R', 'Spark', 'TensorFlow', 'MongoDB']",MN,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",maybe
+218,Michael,Morris,"['C++', 'Spark', 'SQL', 'Java', 'skLearn']",WI,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+219,April,Miller,"['Python', 'skLearn', 'Spark', 'MongoDB']",GA,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+220,Breanna,Joyce,"['skLearn', 'MongoDB', 'R', 'Java']",NM,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",no
+221,Christine,Morgan,['skLearn'],WV,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",yes
+222,Samuel,Ramirez,"['R', 'Python']",CO,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+223,Cassandra,Becker,"['Spark', 'TensorFlow', 'C++', 'SQL', 'Python', 'MongoDB', 'skLearn']",HI,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+224,Emily,Potter,"['SQL', 'Spark', 'Python', 'MongoDB', 'C++', 'TensorFlow', 'skLearn', 'R']",KY,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",yes
+225,Dominic,Hunt,"['skLearn', 'SQL', 'Python', 'Java', 'R', 'MongoDB', 'C++', 'TensorFlow']",AZ,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+226,Anthony,Armstrong,"['Spark', 'SQL']",MI,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",no
+227,Jennifer,Brewer,"['TensorFlow', 'C++', 'Python', 'Java', 'Spark', 'skLearn', 'MongoDB']",ID,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+228,Samantha,Johnson,"['C++', 'Spark', 'R']",CO,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+229,Lisa,Jackson,"['C++', 'Python', 'SQL', 'skLearn', 'R', 'TensorFlow', 'Java']",MD,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",yes
+230,Stephanie,Morton,"['R', 'skLearn', 'MongoDB', 'TensorFlow', 'Python', 'SQL', 'Java', 'Spark', 'C++']",WI,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",yes
+231,Yolanda,Hernandez,"['SQL', 'C++']",NH,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",yes
+232,Peter,Torres,"['R', 'MongoDB', 'SQL', 'TensorFlow', 'Java', 'Spark', 'skLearn', 'Python', 'C++']",WI,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+233,Elizabeth,Rogers,"['skLearn', 'TensorFlow', 'Spark']",OH,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",yes
+234,Sharon,Allison,"['MongoDB', 'Python', 'R', 'SQL']",OH,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",maybe
+235,Cody,Banks,"['SQL', 'TensorFlow', 'Python', 'Spark', 'C++', 'MongoDB', 'R', 'skLearn']",AR,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",yes
+236,Melissa,Bishop,"['TensorFlow', 'C++', 'skLearn', 'MongoDB']",MT,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",maybe
+237,Rebecca,Ortiz,"['Spark', 'Python', 'SQL', 'TensorFlow', 'C++', 'skLearn']",AR,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+238,Mr.,Gregory,"['Python', 'Spark', 'R', 'C++', 'SQL', 'MongoDB', 'skLearn']",AZ,"({'specialty': 'Database'}, {'experience': 'Junior'})",yes
+239,Jillian,Hunter,"['Spark', 'Python', 'SQL']",MS,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+240,Rachel,Parks,"['R', 'C++', 'Spark', 'Java']",SD,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+241,Joseph,Davis,"['SQL', 'skLearn', 'Python', 'TensorFlow', 'C++']",MO,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",no
+242,Haley,Miller,"['TensorFlow', 'SQL', 'Java', 'Spark', 'skLearn', 'Python', 'C++', 'MongoDB']",WI,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+243,Mary,Garcia,"['Java', 'C++', 'Spark', 'Python', 'TensorFlow', 'skLearn', 'R', 'MongoDB']",VA,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+244,Jennifer,Torres,"['SQL', 'Java', 'C++']",OK,"({'specialty': 'Database'}, {'experience': 'Junior'})",yes
+245,Hayley,Howell,"['MongoDB', 'skLearn', 'TensorFlow', 'SQL', 'Python']",MA,"({'specialty': 'Database'}, {'experience': 'Junior'})",yes
+246,Ruth,Lang,"['Python', 'Java', 'Spark', 'R', 'skLearn', 'C++', 'MongoDB', 'SQL']",PA,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+247,Carla,Morris,"['C++', 'skLearn']",NH,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+248,Brenda,Kennedy,['TensorFlow'],GA,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",yes
+249,Amy,Campbell,['C++'],TX,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+250,Frank,Jackson,"['C++', 'Spark', 'Python', 'TensorFlow', 'Java', 'SQL', 'skLearn']",OH,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+251,Dr.,Michael,"['TensorFlow', 'R', 'Spark', 'skLearn', 'C++', 'MongoDB', 'Python', 'SQL', 'Java']",GA,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+252,John,Hernandez,"['Python', 'Java', 'C++', 'Spark', 'MongoDB', 'R', 'skLearn', 'TensorFlow']",MA,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+253,David,Sanchez,['Spark'],WV,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+254,Misty,Schneider,"['SQL', 'R', 'Java', 'Python', 'TensorFlow', 'C++']",UT,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+255,Susan,Gilbert,['MongoDB'],MO,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+256,Julie,Miller,"['Python', 'SQL', 'TensorFlow', 'Spark', 'MongoDB', 'skLearn', 'C++']",CA,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+257,Maria,Brewer,"['MongoDB', 'Python', 'R']",AZ,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+258,Daniel,Oliver,"['TensorFlow', 'SQL', 'R', 'skLearn', 'Spark', 'Java', 'MongoDB']",ME,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",maybe
+259,Michael,Williams,"['Python', 'SQL', 'skLearn', 'Java', 'Spark', 'C++']",MN,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+260,Angela,Hunt,['SQL'],ME,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",yes
+261,Paula,Curtis,"['SQL', 'Python', 'TensorFlow', 'Spark', 'skLearn', 'C++', 'Java', 'MongoDB', 'R']",ND,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+262,Jennifer,Becker,"['TensorFlow', 'MongoDB', 'skLearn', 'R', 'Java', 'Spark']",WI,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+263,Keith,Hall,"['C++', 'SQL', 'Spark']",NJ,"({'specialty': 'Database'}, {'experience': 'Junior'})",no
+264,Meghan,Johnson,"['C++', 'R', 'TensorFlow', 'Java', 'Python', 'SQL', 'MongoDB', 'skLearn']",MA,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+265,Jared,Dalton,"['Python', 'C++', 'SQL', 'R', 'MongoDB', 'skLearn', 'Spark', 'TensorFlow']",MS,"({'specialty': 'Database'}, {'experience': 'Mid'})",yes
+266,Todd,Cabrera,"['Spark', 'SQL']",NC,"({'specialty': 'Database'}, {'experience': 'Junior'})",no
+267,Timothy,Perez,"['skLearn', 'Python', 'TensorFlow', 'R', 'Spark', 'MongoDB', 'Java', 'SQL', 'C++']",MD,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",yes
+268,Peter,Burke,"['TensorFlow', 'Java', 'Spark', 'C++', 'skLearn', 'R', 'SQL', 'MongoDB']",MD,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+269,Justin,Curry,"['C++', 'R', 'Python', 'Spark', 'TensorFlow', 'Java', 'SQL', 'MongoDB', 'skLearn']",WA,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+270,William,Hicks,"['C++', 'Java', 'MongoDB', 'Python', 'Spark', 'skLearn', 'TensorFlow']",NJ,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+271,Timothy,Kramer,"['Spark', 'Python']",IN,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",no
+272,Hannah,Garner,"['R', 'MongoDB', 'SQL', 'skLearn']",CA,"({'specialty': 'Database'}, {'experience': 'Junior'})",maybe
+273,Alexander,Terry,"['TensorFlow', 'R', 'MongoDB', 'skLearn', 'C++']",WA,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",maybe
+274,Bruce,Fisher,"['MongoDB', 'Spark', 'skLearn', 'Python', 'TensorFlow', 'SQL']",MS,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+275,Amy,Crawford,['C++'],KY,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",maybe
+276,Nicole,Owen,"['Spark', 'skLearn', 'Python', 'R']",SC,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+277,Matthew,Dixon,"['MongoDB', 'Spark', 'TensorFlow']",KY,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+278,Robert,Gray,['Spark'],WI,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+279,Randy,Price,"['skLearn', 'TensorFlow', 'MongoDB', 'Spark', 'Python']",AL,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",yes
+280,Ashley,Miller,['R'],DE,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+281,Christine,Rodriguez,"['R', 'Spark', 'MongoDB', 'skLearn', 'TensorFlow']",NH,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+282,Danielle,Weiss,"['C++', 'MongoDB', 'Java', 'Spark', 'Python', 'skLearn', 'SQL']",AR,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+283,Tammy,Carlson,"['C++', 'R', 'MongoDB', 'SQL', 'TensorFlow', 'skLearn', 'Spark']",LA,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+284,Jordan,Gamble,"['Spark', 'skLearn', 'Java']",KS,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",yes
+285,Jenny,Ramirez,"['TensorFlow', 'skLearn', 'MongoDB', 'Python', 'R', 'SQL', 'Java', 'C++']",IN,"({'specialty': 'Database'}, {'experience': 'Mid'})",yes
+286,Joyce,Salas,"['MongoDB', 'C++', 'SQL', 'TensorFlow', 'Python', 'R', 'Java', 'Spark']",AK,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+287,Bradley,Foster,['Python'],GA,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",no
+288,Suzanne,Allen,['SQL'],HI,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+289,Jody,Sampson,"['Python', 'MongoDB', 'SQL', 'TensorFlow', 'C++', 'skLearn', 'Spark', 'Java']",WI,"({'specialty': 'Database'}, {'experience': 'Junior'})",maybe
+290,Joan,James,"['skLearn', 'R', 'TensorFlow']",WV,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+291,Joshua,Bowers,['C++'],WA,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+292,Jared,Griffith,"['skLearn', 'MongoDB', 'C++', 'SQL', 'Java', 'TensorFlow', 'Python', 'Spark', 'R']",NJ,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+293,Julia,Ferrell,"['Spark', 'SQL', 'C++', 'Java', 'R', 'TensorFlow', 'skLearn']",AL,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+294,Carolyn,Carey,"['skLearn', 'Java', 'Python']",LA,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+295,Colin,Gomez,"['Spark', 'Python', 'C++', 'R', 'TensorFlow']",MO,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+296,James,Shaw,['skLearn'],MT,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",yes
+297,Beverly,Schneider,"['MongoDB', 'Python', 'Spark', 'R', 'Java', 'skLearn', 'SQL', 'C++']",OH,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",maybe
+298,John,Henson,"['C++', 'SQL', 'Java', 'Spark', 'R', 'Python', 'TensorFlow']",CA,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",maybe
+299,Joshua,Rose,"['Python', 'TensorFlow', 'Spark', 'skLearn', 'MongoDB']",ND,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+300,Rebecca,Adams,"['C++', 'R', 'TensorFlow', 'Java', 'MongoDB', 'skLearn', 'SQL']",OK,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+301,Miranda,Mitchell,"['C++', 'R', 'Java', 'Python', 'SQL', 'Spark', 'MongoDB', 'skLearn', 'TensorFlow']",AZ,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",maybe
+302,Katherine,Bradshaw,"['Java', 'R', 'skLearn', 'C++', 'MongoDB', 'Python']",RI,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+303,Elizabeth,Silva,"['Java', 'TensorFlow', 'C++', 'Python', 'Spark', 'R', 'SQL', 'MongoDB']",KY,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",yes
+304,Jordan,Martinez,"['Python', 'SQL', 'MongoDB', 'R']",TX,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+305,Travis,Willis,"['SQL', 'MongoDB', 'Java', 'Python', 'skLearn']",VT,"({'specialty': 'Database'}, {'experience': 'Senior'})",maybe
+306,Sherry,Kennedy,"['R', 'skLearn', 'Java', 'TensorFlow', 'Python', 'MongoDB']",NV,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+307,Mark,Hanson,"['Spark', 'skLearn', 'TensorFlow', 'R', 'SQL', 'C++', 'MongoDB']",MI,"({'specialty': 'Database'}, {'experience': 'Senior'})",maybe
+308,Rodney,Rios,"['R', 'TensorFlow']",CT,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+309,Miss,Kristine,['Java'],MD,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+310,Melinda,Ford,['SQL'],WA,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+311,Michael,Jones,"['Java', 'skLearn', 'Python', 'SQL', 'C++', 'MongoDB', 'R', 'TensorFlow', 'Spark']",TN,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+312,Dr.,Gary,"['Spark', 'R', 'MongoDB', 'TensorFlow', 'C++', 'Java']",NH,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+313,Ann,Fisher,['Python'],UT,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+314,Cheryl,Durham,"['Java', 'R', 'Python', 'MongoDB']",MD,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+315,Jacob,Rosales,"['MongoDB', 'Python']",GA,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",no
+316,Mrs.,Emily,"['MongoDB', 'skLearn']",TN,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+317,Lori,Duncan,"['MongoDB', 'skLearn', 'SQL', 'Spark', 'C++', 'R', 'Python', 'TensorFlow', 'Java']",OK,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+318,Paul,Frye,"['C++', 'skLearn', 'Python', 'R', 'Spark', 'Java']",OR,"({'specialty': 'Database'}, {'experience': 'Junior'})",maybe
+319,Heather,Wells,"['C++', 'R', 'Python', 'SQL', 'MongoDB', 'skLearn', 'TensorFlow', 'Spark']",MS,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+320,Samantha,Williams,"['SQL', 'MongoDB', 'R', 'Spark', 'skLearn', 'C++', 'Python', 'TensorFlow']",OR,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",yes
+321,Dylan,Powers,"['Python', 'R', 'SQL', 'TensorFlow', 'C++', 'MongoDB']",UT,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",no
+322,Stephen,Wright,['Java'],NV,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+323,Alexis,Stewart,['Java'],WI,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",no
+324,Wesley,Ray,"['skLearn', 'MongoDB', 'Java', 'Python']",OK,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+325,Mary,Duncan,"['Spark', 'SQL']",IL,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+326,Robert,Ellison,"['Java', 'R', 'Python', 'skLearn', 'Spark', 'C++', 'SQL']",RI,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+327,Andrew,Day,"['Python', 'Spark', 'Java', 'TensorFlow', 'C++', 'MongoDB', 'SQL', 'R']",OK,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",yes
+328,Andrew,King,"['Spark', 'R', 'C++', 'MongoDB', 'Python', 'Java', 'skLearn', 'SQL', 'TensorFlow']",PA,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+329,Katherine,Christian,"['Spark', 'C++']",NY,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+330,Joyce,Campbell,"['Spark', 'R', 'SQL']",NV,"({'specialty': 'Database'}, {'experience': 'Junior'})",no
+331,Haley,Green,"['C++', 'R', 'Java', 'SQL', 'Python', 'Spark', 'TensorFlow', 'MongoDB', 'skLearn']",AZ,"({'specialty': 'Database'}, {'experience': 'Senior'})",no
+332,Justin,Smith,['MongoDB'],NH,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+333,Cody,Klein,"['Java', 'Spark']",WV,"({'specialty': 'Database'}, {'experience': 'Junior'})",yes
+334,Melinda,Robinson,"['C++', 'MongoDB', 'Java', 'R', 'Spark']",NJ,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+335,Robert,Phelps,"['Spark', 'SQL', 'Java', 'C++', 'R', 'MongoDB', 'TensorFlow', 'Python', 'skLearn']",SD,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",yes
+336,Dominic,Rivera,"['Python', 'skLearn', 'MongoDB', 'C++', 'SQL', 'TensorFlow', 'Spark']",UT,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",yes
+337,Steven,Allen,"['Java', 'Spark']",MI,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",maybe
+338,Lauren,Gomez,"['TensorFlow', 'skLearn', 'Python']",MA,"({'specialty': 'Database'}, {'experience': 'Mid'})",yes
+339,Robert,Smith,"['SQL', 'MongoDB']",AR,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",yes
+340,Joann,Jones,"['Spark', 'C++', 'SQL', 'TensorFlow', 'MongoDB', 'Java', 'skLearn']",NC,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+341,Gloria,Martinez,"['Python', 'Spark', 'skLearn', 'TensorFlow', 'R', 'Java']",GA,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+342,Ashley,Chung,"['SQL', 'Spark', 'Java', 'C++', 'TensorFlow', 'Python', 'R', 'MongoDB', 'skLearn']",MA,"({'specialty': 'Database'}, {'experience': 'Senior'})",no
+343,Victoria,Rodriguez,"['Python', 'C++', 'MongoDB']",MS,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+344,Nancy,Morton,"['Spark', 'Python', 'SQL', 'Java', 'skLearn', 'MongoDB', 'TensorFlow']",ID,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+345,Katelyn,Hamilton,"['Python', 'SQL', 'R', 'MongoDB', 'TensorFlow', 'Spark', 'C++', 'skLearn']",ME,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",maybe
+346,Brett,Olson,"['skLearn', 'Python', 'Spark', 'C++', 'R', 'TensorFlow']",WA,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",maybe
+347,Laurie,Harris,"['Java', 'SQL', 'Spark', 'MongoDB', 'C++', 'skLearn']",MA,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+348,Danielle,Chapman,"['C++', 'Java', 'SQL', 'skLearn', 'Python']",GA,"({'specialty': 'Database'}, {'experience': 'Mid'})",yes
+349,Jessica,Johnson,"['R', 'Python']",MN,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",maybe
+350,Paige,Davis,"['TensorFlow', 'R', 'Python', 'MongoDB']",NE,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+351,Felicia,Mills,['Spark'],NC,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+352,Glenn,Stewart,"['TensorFlow', 'Java', 'Spark', 'SQL', 'R', 'skLearn', 'MongoDB', 'Python', 'C++']",SD,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",yes
+353,Theresa,Brown,"['skLearn', 'C++']",MT,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",maybe
+354,Alyssa,Sandoval,"['MongoDB', 'R', 'skLearn', 'Python']",MS,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",yes
+355,Aaron,Williams,"['MongoDB', 'TensorFlow', 'Python']",WY,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",maybe
+356,Thomas,Montgomery,"['SQL', 'MongoDB', 'C++', 'Spark', 'TensorFlow', 'R', 'skLearn', 'Java']",IL,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",maybe
+357,Lindsey,Colon,"['SQL', 'R', 'MongoDB', 'skLearn', 'Python', 'Java', 'C++', 'Spark', 'TensorFlow']",AR,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+358,John,Schneider,"['MongoDB', 'TensorFlow', 'C++', 'R', 'skLearn']",WV,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+359,Nicole,Lewis,"['Spark', 'Python', 'TensorFlow', 'C++', 'SQL']",RI,"({'specialty': 'Database'}, {'experience': 'Senior'})",maybe
+360,Michelle,Dorsey,"['SQL', 'skLearn', 'TensorFlow', 'R', 'C++', 'Python', 'Spark', 'MongoDB']",VT,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+361,Carlos,Valdez,"['R', 'MongoDB', 'Spark', 'Python']",AZ,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+362,Jennifer,Kelly,"['Spark', 'Python', 'skLearn', 'SQL', 'Java']",NY,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+363,Janice,Marshall,"['skLearn', 'TensorFlow', 'SQL', 'MongoDB', 'Java', 'Spark', 'C++']",KY,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+364,Kelly,Henry,"['TensorFlow', 'MongoDB', 'Spark', 'SQL', 'Python']",UT,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+365,Paul,Cruz,['R'],ME,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",yes
+366,Amanda,Howell,"['Spark', 'MongoDB', 'R', 'TensorFlow', 'skLearn', 'Python', 'SQL']",ID,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",no
+367,Adrian,Solis,"['skLearn', 'MongoDB', 'C++', 'TensorFlow']",MD,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+368,Craig,Jones,"['Spark', 'TensorFlow', 'skLearn', 'R', 'SQL']",WV,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",maybe
+369,James,Ortiz,['MongoDB'],AL,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+370,Tracy,Alexander,"['C++', 'Python', 'MongoDB', 'skLearn', 'Java', 'R']",AZ,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+371,Scott,Johnson,"['MongoDB', 'skLearn', 'Python', 'TensorFlow', 'SQL']",RI,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+372,Jon,Haney,"['R', 'MongoDB', 'Python', 'skLearn', 'TensorFlow', 'SQL', 'Spark']",ND,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",maybe
+373,Rhonda,Bass,"['Java', 'skLearn', 'TensorFlow', 'C++']",NC,"({'specialty': 'Database'}, {'experience': 'Junior'})",yes
+374,Paul,Wallace,"['skLearn', 'Spark', 'MongoDB', 'R']",CO,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+375,Robert,Lewis,"['MongoDB', 'Spark', 'Java', 'TensorFlow', 'Python', 'skLearn', 'C++', 'R', 'SQL']",MA,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+376,Mark,Beck,"['Python', 'Java', 'R', 'C++']",MD,"({'specialty': 'Database'}, {'experience': 'Mid'})",no
+377,Larry,Marshall,['SQL'],WV,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",yes
+378,Catherine,Durham,"['SQL', 'Python']",PA,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+379,Kelly,Ortiz,"['skLearn', 'Python', 'Java']",KS,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+380,Madison,Stout,['skLearn'],AZ,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+381,Patrick,Wise,"['C++', 'Python', 'skLearn', 'TensorFlow', 'Java', 'R', 'Spark', 'SQL', 'MongoDB']",AK,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+382,Bryan,Robbins,"['R', 'Spark', 'C++', 'SQL', 'MongoDB']",MN,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+383,Carrie,Lopez,"['Spark', 'SQL', 'MongoDB']",RI,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",yes
+384,Kenneth,Ray,"['R', 'TensorFlow', 'MongoDB', 'C++']",PA,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+385,Thomas,Romero,"['TensorFlow', 'skLearn']",HI,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+386,Lisa,Hall,['Java'],SC,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+387,Keith,Clark,"['MongoDB', 'skLearn', 'Python', 'Java', 'Spark', 'C++']",TX,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+388,Kimberly,Stout,"['TensorFlow', 'C++', 'Java', 'R']",NM,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",maybe
+389,William,Santos,"['SQL', 'Spark', 'C++', 'Java', 'R']",AL,"({'specialty': 'Database'}, {'experience': 'Junior'})",yes
+390,Elizabeth,Jones,"['Java', 'TensorFlow', 'Python', 'Spark', 'SQL', 'C++', 'R']",RI,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",maybe
+391,Mary,Myers,['MongoDB'],WV,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+392,Donna,Simpson,"['SQL', 'R', 'Spark', 'MongoDB', 'C++', 'Java', 'Python']",MS,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+393,Jacob,White,"['Java', 'MongoDB', 'TensorFlow', 'Python', 'R', 'SQL']",RI,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",maybe
+394,Ryan,Rivera,"['R', 'TensorFlow', 'Java', 'Spark', 'MongoDB']",CT,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+395,Michael,Soto,"['Spark', 'TensorFlow', 'SQL', 'Python', 'Java', 'C++', 'skLearn']",OR,"({'specialty': 'Database'}, {'experience': 'Senior'})",no
+396,Jill,Lewis,"['TensorFlow', 'MongoDB', 'C++', 'Java', 'R']",VT,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+397,Sarah,Maxwell,"['Java', 'SQL', 'R', 'Python', 'TensorFlow', 'MongoDB', 'skLearn', 'C++']",FL,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+398,Thomas,Johnson,['Spark'],OH,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+399,Samantha,Miller,"['Java', 'R', 'SQL', 'MongoDB', 'C++', 'skLearn']",MT,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+400,Wesley,Jackson,"['C++', 'Python', 'Spark', 'TensorFlow', 'Java', 'R', 'SQL']",LA,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",yes
+401,Christopher,Cook,"['R', 'Java', 'skLearn', 'MongoDB', 'Python', 'Spark', 'TensorFlow', 'SQL']",GA,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+402,Sandra,Blevins,"['Python', 'R', 'TensorFlow']",CA,"({'specialty': 'Database'}, {'experience': 'Mid'})",no
+403,Kristin,Gomez,"['Spark', 'Java', 'skLearn', 'MongoDB', 'TensorFlow', 'Python', 'R', 'C++', 'SQL']",KS,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",no
+404,Heather,Maxwell,"['Python', 'skLearn', 'R', 'Spark', 'TensorFlow', 'SQL']",NH,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+405,Sara,Mclean,"['TensorFlow', 'Python', 'C++', 'MongoDB']",NE,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+406,Brittany,Nelson,"['Java', 'TensorFlow', 'skLearn', 'MongoDB', 'Spark', 'SQL', 'C++']",KY,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",yes
+407,Tracey,Patterson,"['R', 'Spark', 'Python', 'SQL', 'Java', 'TensorFlow', 'C++', 'MongoDB']",WV,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+408,Brian,Wilkerson,"['skLearn', 'Spark', 'SQL', 'C++', 'TensorFlow']",NH,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+409,Jessica,Clark,"['TensorFlow', 'Python', 'SQL', 'MongoDB', 'C++', 'R', 'Java']",NJ,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+410,Joseph,Sullivan,"['MongoDB', 'Java']",TN,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+411,Beth,Wong,['SQL'],NY,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+412,Teresa,Smith,"['Java', 'R', 'skLearn', 'C++', 'TensorFlow', 'SQL', 'Python', 'Spark', 'MongoDB']",NY,"({'specialty': 'Database'}, {'experience': 'Mid'})",yes
+413,Nicole,Murillo,"['Python', 'R', 'MongoDB', 'TensorFlow', 'Java', 'SQL', 'C++']",ID,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",maybe
+414,Michael,Perry,"['SQL', 'Python', 'TensorFlow', 'MongoDB', 'C++', 'skLearn', 'Spark', 'R']",HI,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+415,Tyler,Myers,['skLearn'],LA,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",no
+416,Zachary,Carroll,"['SQL', 'TensorFlow', 'Python', 'R', 'Java', 'MongoDB', 'C++']",CT,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+417,Joel,Ferguson,"['R', 'SQL', 'MongoDB', 'Spark', 'Java', 'C++', 'Python', 'skLearn', 'TensorFlow']",AL,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+418,Brian,Rodgers,"['R', 'Python', 'skLearn', 'TensorFlow', 'SQL']",AL,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",yes
+419,Kathryn,Robinson,"['C++', 'R', 'SQL', 'TensorFlow', 'skLearn', 'Python', 'Spark', 'Java', 'MongoDB']",CO,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",maybe
+420,Lindsey,Mendoza,"['Python', 'MongoDB']",WA,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+421,Alejandro,Navarro,"['skLearn', 'Python', 'Spark', 'Java']",NJ,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+422,Janet,Cunningham,"['Java', 'skLearn', 'TensorFlow', 'Python', 'Spark', 'MongoDB', 'R', 'SQL']",MD,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",yes
+423,Gina,Smith,"['SQL', 'MongoDB', 'skLearn', 'TensorFlow', 'Spark', 'Java', 'C++', 'R']",IL,"({'specialty': 'Database'}, {'experience': 'Junior'})",no
+424,Brandy,Baker,"['SQL', 'TensorFlow', 'Spark', 'Java']",WY,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",no
+425,Rebecca,Merritt,"['R', 'Spark', 'Python', 'Java']",ME,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",maybe
+426,Stephen,Cain,"['Spark', 'skLearn', 'MongoDB', 'R', 'Python', 'TensorFlow']",KY,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+427,Scott,Lopez,"['Python', 'skLearn', 'Spark', 'SQL', 'R', 'TensorFlow', 'Java', 'C++', 'MongoDB']",NJ,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+428,Danielle,Williams,"['SQL', 'R', 'C++', 'skLearn', 'Java', 'Python', 'MongoDB', 'Spark', 'TensorFlow']",MS,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+429,Carl,Jones,"['Python', 'skLearn', 'R']",ND,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",yes
+430,Jodi,Mcintyre,"['SQL', 'Spark', 'skLearn', 'C++']",WY,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+431,Evelyn,Shaw,['skLearn'],NC,"({'specialty': 'Database'}, {'experience': 'Senior'})",no
+432,Erika,Martinez,"['SQL', 'R', 'C++']",HI,"({'specialty': 'Database'}, {'experience': 'Senior'})",maybe
+433,Steven,Turner,"['MongoDB', 'Spark', 'Java', 'SQL', 'Python', 'C++', 'skLearn']",NV,"({'specialty': 'Database'}, {'experience': 'Junior'})",no
+434,Dean,Payne,['MongoDB'],MI,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+435,Mitchell,Barry,"['Java', 'SQL', 'C++', 'Python']",MT,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+436,Jennifer,Dixon,['Java'],AR,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+437,Stephen,Davis,"['Spark', 'SQL', 'R', 'MongoDB']",UT,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+438,Julian,Johnson,"['TensorFlow', 'Spark', 'MongoDB', 'R', 'C++', 'skLearn', 'SQL', 'Python']",ME,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",maybe
+439,Lisa,Conley,"['R', 'Python', 'skLearn', 'SQL', 'MongoDB', 'Spark', 'TensorFlow', 'Java', 'C++']",NH,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",no
+440,Adam,Anderson,['R'],OH,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",yes
+441,Daniel,Escobar,"['skLearn', 'C++', 'Python', 'R', 'SQL']",CT,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+442,John,Boyd,"['MongoDB', 'SQL', 'Java', 'skLearn', 'Python', 'TensorFlow', 'R', 'Spark', 'C++']",ME,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+443,Travis,Davies,['MongoDB'],NV,"({'specialty': 'Database'}, {'experience': 'Mid'})",no
+444,Meghan,Roberts,"['SQL', 'MongoDB', 'Java', 'TensorFlow', 'C++', 'R']",CA,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",no
+445,Cindy,Smith,"['SQL', 'MongoDB', 'R', 'TensorFlow', 'Java']",SD,"({'specialty': 'Database'}, {'experience': 'Mid'})",yes
+446,Michael,Davis,"['SQL', 'Spark', 'Java', 'C++', 'TensorFlow', 'MongoDB', 'R']",OK,"({'specialty': 'Database'}, {'experience': 'Mid'})",yes
+447,Tom,Parker,"['SQL', 'TensorFlow', 'Java', 'Python']",IN,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",no
+448,Teresa,Mendez,"['skLearn', 'TensorFlow', 'Python', 'Java', 'C++']",IL,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+449,Sandra,Morales,"['Python', 'skLearn', 'Spark', 'MongoDB', 'TensorFlow']",TX,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+450,Jason,Parsons,"['C++', 'SQL', 'R', 'Java', 'Spark', 'MongoDB', 'TensorFlow']",NV,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+451,David,Roberts,"['Python', 'SQL', 'TensorFlow', 'skLearn', 'MongoDB', 'Java', 'R', 'C++']",VT,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",yes
+452,Paul,White,"['TensorFlow', 'R', 'Python']",OK,"({'specialty': 'Database'}, {'experience': 'Junior'})",yes
+453,Nicole,Mcconnell,"['R', 'skLearn', 'MongoDB', 'Spark']",DE,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+454,Austin,Greene,['TensorFlow'],MD,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+455,Emily,Adams,['SQL'],MS,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",yes
+456,Alyssa,Wells,"['R', 'Spark', 'MongoDB', 'SQL', 'TensorFlow', 'C++', 'Java']",VA,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+457,Megan,Terry,"['C++', 'TensorFlow', 'R', 'MongoDB', 'Java']",NY,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",no
+458,Jennifer,Clark,"['skLearn', 'Python']",NE,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",maybe
+459,David,Cervantes,"['Python', 'MongoDB', 'Java', 'TensorFlow', 'SQL', 'skLearn']",NC,"({'specialty': 'Database'}, {'experience': 'Senior'})",no
+460,Jennifer,Brewer,"['SQL', 'Spark', 'MongoDB', 'Java', 'skLearn', 'Python', 'C++', 'TensorFlow']",OH,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",yes
+461,Michelle,Tapia,"['MongoDB', 'Python', 'R', 'SQL']",NE,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",yes
+462,Cassidy,Hill,"['SQL', 'Java', 'skLearn', 'Spark', 'TensorFlow', 'R', 'Python', 'C++']",WI,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",yes
+463,David,Burns,"['SQL', 'Java', 'C++', 'TensorFlow', 'skLearn', 'MongoDB']",WA,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+464,Deanna,Mason,['Spark'],TX,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+465,Jessica,Johnson,['SQL'],FL,"({'specialty': 'Database'}, {'experience': 'Junior'})",maybe
+466,Rachel,Mills,"['Java', 'Spark', 'TensorFlow', 'SQL', 'R', 'C++', 'MongoDB', 'skLearn', 'Python']",KY,"({'specialty': 'Database'}, {'experience': 'Mid'})",yes
+467,David,Miller,"['MongoDB', 'TensorFlow', 'Java', 'C++', 'R', 'SQL', 'Spark']",IL,"({'specialty': 'Database'}, {'experience': 'Junior'})",no
+468,Michael,Young,"['skLearn', 'TensorFlow', 'Spark', 'C++', 'Java']",WV,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",yes
+469,Steven,Nichols,"['SQL', 'MongoDB', 'C++', 'skLearn', 'Spark', 'Python', 'Java', 'R', 'TensorFlow']",LA,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+470,John,Walker,"['Spark', 'R', 'TensorFlow', 'skLearn', 'SQL', 'Python']",RI,"({'specialty': 'Database'}, {'experience': 'Mid'})",yes
+471,James,Steele,"['MongoDB', 'R', 'Spark', 'Python', 'TensorFlow', 'SQL', 'C++']",IN,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",yes
+472,William,Myers,"['Python', 'TensorFlow', 'SQL', 'MongoDB', 'Spark', 'R', 'Java', 'skLearn']",OR,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+473,Haley,Reed,"['R', 'SQL', 'Java', 'skLearn', 'Python']",LA,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",no
+474,Adam,Middleton,"['SQL', 'Python', 'MongoDB', 'Java', 'skLearn']",NJ,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",yes
+475,Jeremiah,Clark,"['MongoDB', 'R', 'C++', 'Spark', 'Java', 'skLearn', 'TensorFlow']",ND,"({'specialty': 'Database'}, {'experience': 'Junior'})",no
+476,Valerie,Martin,"['C++', 'Python']",WA,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+477,Sophia,Duncan,"['TensorFlow', 'MongoDB', 'skLearn']",WI,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",yes
+478,Sarah,Harvey,"['Java', 'Python', 'C++']",SD,"({'specialty': 'Statistics'}, {'experience': 'Mid'})",no
+479,Laura,Roberson,"['R', 'Spark', 'Java', 'C++', 'SQL']",VA,"({'specialty': 'Database'}, {'experience': 'Senior'})",maybe
+480,Sara,Perkins,"['MongoDB', 'Java', 'Spark', 'Python', 'TensorFlow']",HI,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
+481,Elizabeth,Mercado,"['MongoDB', 'SQL', 'Spark', 'TensorFlow', 'C++', 'skLearn', 'Python', 'Java']",WI,"({'specialty': 'Database'}, {'experience': 'Senior'})",maybe
+482,David,Morgan,"['C++', 'TensorFlow', 'Java']",ID,"({'specialty': 'Machine Learning'}, {'experience': 'Senior'})",yes
+483,Charlene,Kelly,"['Java', 'TensorFlow', 'skLearn']",UT,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",maybe
+484,Edward,White,"['Python', 'Java', 'skLearn', 'C++', 'Spark', 'MongoDB', 'TensorFlow', 'SQL']",WY,"({'specialty': 'Database'}, {'experience': 'Senior'})",yes
+485,Jaclyn,Berger,"['MongoDB', 'Python']",NE,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",no
+486,Karen,Steele,"['Spark', 'R', 'Python', 'Java', 'skLearn', 'C++']",ME,"({'specialty': 'Data Visualization'}, {'experience': 'Mid'})",maybe
+487,David,Lucero,"['C++', 'Java', 'Spark', 'MongoDB', 'Python', 'TensorFlow', 'R']",CA,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",yes
+488,Philip,Walters,"['SQL', 'C++', 'Spark', 'Python', 'R', 'MongoDB', 'Java', 'TensorFlow', 'skLearn']",ND,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",no
+489,Eric,Miller,"['C++', 'Python']",ID,"({'specialty': 'Statistics'}, {'experience': 'Senior'})",yes
+490,Jill,Harmon,"['skLearn', 'Java', 'R', 'Python', 'SQL', 'Spark', 'C++']",MO,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",yes
+491,Mark,Mcknight,"['R', 'Spark', 'SQL', 'TensorFlow', 'Python', 'MongoDB', 'C++', 'skLearn', 'Java']",DE,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+492,Jennifer,Harris,"['SQL', 'C++', 'Java', 'Spark', 'Python', 'R', 'TensorFlow', 'skLearn', 'MongoDB']",SC,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",maybe
+493,Ms.,Tracy,"['C++', 'Python', 'MongoDB']",VT,"({'specialty': 'Data Visualization'}, {'experience': 'Junior'})",maybe
+494,Brandon,Moore,"['Java', 'R', 'C++', 'skLearn']",PA,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+495,Robert,Baker,"['skLearn', 'Spark', 'C++', 'Java']",MI,"({'specialty': 'Database'}, {'experience': 'Mid'})",maybe
+496,Lucas,Brock,['C++'],MI,"({'specialty': 'Statistics'}, {'experience': 'Junior'})",no
+497,Kimberly,Richardson,"['Python', 'Java']",MS,"({'specialty': 'Machine Learning'}, {'experience': 'Junior'})",maybe
+498,Karla,Salazar,"['MongoDB', 'Python', 'Java', 'skLearn']",NY,"({'specialty': 'Data Visualization'}, {'experience': 'Senior'})",maybe
+499,Mrs.,Debra,"['skLearn', 'R', 'MongoDB', 'Spark', 'TensorFlow', 'Java', 'SQL', 'Python', 'C++']",MI,"({'specialty': 'Machine Learning'}, {'experience': 'Mid'})",maybe
