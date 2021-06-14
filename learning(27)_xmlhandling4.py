@@ -1,4 +1,5 @@
 import xml.dom.minidom
+import xml.etree.ElementTree as et
 
 def test():
     dom = xml.dom.minidom.parse("writings/Doit.xml")
@@ -17,4 +18,19 @@ def test():
     for url in dom.getElementsByTagName("url"): #한번에 접근.
         print(url.firstChild.data)
 
-test()
+#test()
+def test01():
+    tree = et.ElementTree(file="writings/Doit.xml")
+    root = tree.getroot()
+    for site in root.findall('site'):
+        if site.find('name').text in ('naver','daum'):
+            site.set("source","Korea")
+        if site.find('name').text == 'google':
+            site.set("source","US")
+        name = site.find('name').text
+        url = site.find('url').text
+        print(" > ".join([site.tag,name,url]))
+    tree.write("writings/Doit_res.xml",encoding='utf-8',xml_declaration=True)
+
+
+test01()

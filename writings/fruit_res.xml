@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<viand>
+    <origin name="Korean">
+        <quantity>10</quantity>
+        <price type="unit">1500</price>
+        <basket classification="fruit" name="apple" />
+        <basket classification="vegetable" name="eggplant" />
+    </origin>
+    <origin name="Canada">
+        <quantity>5</quantity>
+        <price type="unit">1000</price>
+        <basket classification="fruit" name="tomato" />
+        <basket classification="vegetable" name="leek" />
+    </origin>
+</viand>

@@ -12,6 +12,7 @@ def test():
         else:
             print('\t (과일' , basket02.attrib['name'])
 
+
 def test01():
     tree = et.ElementTree(file='writings/fruit.xml')
     root = tree.getroot()
@@ -25,6 +26,10 @@ def test01():
         total = quantity * price
         for res in origin.findall('basket'):
             print(res.get('name'),format(total,',')) # this format function makes it 100,000,000
+
+        #변경된 내용을 파일로 출력한다.
+    tree.write("writings/fruit_res.xml",encoding="utf-8",xml_declaration=True) #바뀐 내용이 저장된다.
+
 
 if __name__ == '__main__':
     test01()
