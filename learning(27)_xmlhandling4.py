@@ -22,11 +22,12 @@ def test():
 def test01():
     tree = et.ElementTree(file="writings/Doit.xml")
     root = tree.getroot()
+    print(root.tag)
     for site in root.findall('site'):
         if site.find('name').text in ('naver','daum'):
-            site.set("source","Korea")
+            site.set("source","Korea")  ###
         if site.find('name').text == 'google':
-            site.set("source","US")
+            site.set("source","US")     ###
         name = site.find('name').text
         url = site.find('url').text
         print(" > ".join([site.tag,name,url]))

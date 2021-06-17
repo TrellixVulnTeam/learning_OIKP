@@ -4,3 +4,7 @@ bs4
 pymongo
 requests
 lxml
+selenium
+undetected-chromedriver==2.2.7
+googlemaps
+geocoder
