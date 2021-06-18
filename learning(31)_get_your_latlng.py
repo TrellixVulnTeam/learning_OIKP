@@ -1,3 +1,3 @@
 import geocoder
 g = geocoder.ip('me').latlng
-print(g)
+print([g[1],g[0]])

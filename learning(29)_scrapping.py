@@ -19,7 +19,7 @@ driver.maximize_window()
 
 # 검색창에 검색어 입력하기
 search_box = driver.find_element_by_xpath("/html/body/div[3]/div[1]/div[1]/form/div/div[2]/div/span[1]/input")
-search_box.send_keys("부천 마라탕")
+search_box.send_keys("포천 맛집")
 search_box.send_keys(Keys.ENTER)
 
 

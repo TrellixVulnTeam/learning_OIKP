@@ -7,8 +7,6 @@ import geocoder
 
 
 
-
-
 def scrapping(loc,search):
     chrome_options = uc.ChromeOptions()
     chrome_options.add_argument('--headless') # 화면에 안뜨게 하는 것.
@@ -33,15 +31,13 @@ def scrapping(loc,search):
     list_ = soup.find_all('div',class_="item_info")
 
     for i in list_:
-        item = i.find("strong").text
+        item = "_".join(i.find("strong").text.split())
         category = i.find("em").text
-        address = i.find('a',class_="item_address _btnAddress")
+        address = i.find('a', class_="item_address _btnAddress")
         unwanted = address.find('i')
         unwanted.extract()
-        address = address.text.lstrip()
-        print("item: " ,item)
-        print("category: ", category)
-        print("address: ",address)
+        address = address.text.rstrip().split(maxsplit=2)
+        print(item, category, address)
         coordinates = latlng(address)
     #상호명(pk), 카테고리, 주소, 좌표    +내 좌표  (내좌표랑 해당 추천된 곳과의 거리를 구하는거거든요)
     #CREATE TABLE () (상호명 : , 카테고리, 주소, 좌표 ,
@@ -51,7 +47,7 @@ def scrapping(loc,search):
     driver.close()
 
 def latlng(address):
-    gmaps = googlemaps.Client(key='AIzaSyCa-rXujn1Y_t5H_QlArcuBdhulWl-Ll64') #
+    gmaps = googlemaps.Client(key='your key') #
     # Geocoding an address
     geocode_result1 = gmaps.geocode(address)
     lat1 = geocode_result1[0]['geometry']['location']['lat']
