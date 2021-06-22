@@ -2,6 +2,7 @@ import xml.etree.ElementTree as et
 
 def XML():
     tree = et.ElementTree(file="writings/Doit.xml")
+    print(type(tree))
     root = tree.getroot()
     print(root.tag)
     for site in root.findall('site'): #> list

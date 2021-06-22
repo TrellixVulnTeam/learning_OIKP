@@ -2,13 +2,13 @@ from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 import undetected_chromedriver.v2 as uc
 import time
-import googlemaps
 import geocoder
 from functools import reduce
-
+import requests
 from pymongo import MongoClient
-import pprint
-from bson.code import Code
+from haversine import haversine
+
+
 
 
 class Gwanggaeto:
@@ -18,6 +18,8 @@ class Gwanggaeto:
     interest_point = [geocoder.ip('me').latlng[1],geocoder.ip('me').latlng[0]]
     current_location = [geocoder.ip('me').latlng[1],geocoder.ip('me').latlng[0]]
     interested_in = " "
+    location_information = []
+
 
     def __init__(self,loc,search):
         self.loc = loc
@@ -33,14 +35,12 @@ class Gwanggaeto:
         driver.get("https://m.map.naver.com/#/search")
         driver.maximize_window()
 
-
         # 검색창에 검색어 입력하기
         search_box = driver.find_element_by_xpath("/html/body/div[3]/div[1]/div[1]/form/div/div[2]/div/span[1]/input")
         search_box.send_keys(self.loc +" "+ self.search)
         search_box.send_keys(Keys.ENTER)
 
         time.sleep(3)
-
         html = driver.page_source
         soup = BeautifulSoup(html,'html.parser')
         list_ = soup.find_all('div',class_="item_info")
@@ -56,77 +56,125 @@ class Gwanggaeto:
             unwanted = address.find('i')
             unwanted.extract()
             address = address.text.strip()
-            coordinate = self.latlng(address)
-            address = address.split(maxsplit=2)
-            self.collection.insert_one({"brand":item,"category":category,"address":address,"location":coordinate})
-            coordinates.append(coordinate)
-            interest.append(category)
 
+            #get coordinate
+
+            coordinate= self.getLatLng(address)
+            if coordinate != None:
+                self.collection.insert_one({"brand":item,"category":category,"address":address,"location":coordinate})
+                coordinates.append(coordinate)
+                interest.append(category)
+            else :
+                continue
         #centerpoint
-        x = reduce(lambda x, y: x + y, (i[0] for i in coordinates)) / len(coordinates)
-        y = reduce(lambda x, y: x + y, (i[1] for i in coordinates)) / len(coordinates)
-        center_point = [x,y]
-
         driver.close()
 
         #set interest and location
         interest = tuple(set(interest))
-        self.interest_point = center_point
-        print(f"해당 지역 {self.loc}에서 {self.search}에 대한 하위카테고리는 다음과 같습니다: ")
-        print(", ".join(f"{i + 1}:" + interest[i] for i in range(len(interest))))
-        want = input("관심있는 곳의 번호를 입력해주시면 당신의 위치에서 가장 가까운 곳을 찾아드릴게요! :" )
+        print(f"해당 지역 {self.loc}에서 {self.search}에 대한 하위 검색결과는 다음과 같습니다\n {'---'*30} ")
+        print(", ".join(f"{i + 1}:" + interest[i] for i in range(len(interest))) +"\n")
+        want = input(f"관심있는 곳의 번호를 입력해주시면 {self.loc} 중심에서 1km 이내의 장소들을 찾아드릴게요! \n: " )
         self.interested_in = interest[int(want)-1]
 
+        # centerpoint
+        x = reduce(lambda x, y: x + y, (i[0] for i in coordinates)) / len(coordinates)
+        y = reduce(lambda x, y: x + y, (i[1] for i in coordinates)) / len(coordinates)
+        center_point = [x,y]
+        self.interest_point = center_point
 
 
-    def latlng(self, address):
-        gmaps = googlemaps.Client(key='your key') #
-        # Geocoding an address
-        geocode_result1 = gmaps.geocode(address)
-        lng1 = geocode_result1[0]['geometry']['location']['lng']
-        lat1 = geocode_result1[0]['geometry']['location']['lat']
-        return [lng1,lat1]
+    def getLatLng(self,address):
+        result = ""
+
+        url = 'https://dapi.kakao.com/v2/local/search/address.json?query=' + address
+        rest_api_key = '2e05eca8e74f4d6b28c35a6ab2e4ae7c'
+        header = {'Authorization': 'KakaoAK ' + rest_api_key}
+        r = requests.get(url, headers=header)
+
+        if r.status_code == 200:
+            try:
+                result_address = r.json()["documents"][0]["address"]
+                result = [float(result_address["x"]), float(result_address["y"])]
+            except:
+                return None
+        else:
+            result = "ERROR[" + str(r.status_code) + "]"
+
+        return result
 
 
-    def geo(self):
-        geo_center = self.interest_point
-        interest = self.interested_in
+
+    def geo(self,geocenter,interest_in):
         try:
-            self.collection.create_index({"location":"2dsphere"})
-            a = self.collection.aggregate([{"$geoNear":{
-                "spherical" : True,
-                "maxDistance" : 500,
-                "near":{"type": "Point",
-                        "coordinates": self.interest_point},
-                "distanceField":"distance",
-                "key":"location"
-            }}])
-            for i in a:
-                print(i)
+            self.collection.create_index([("location","2dsphere")])
         except Exception as E:
+            pass
+        finally:
             b = self.collection.aggregate([
                 {"$geoNear": {
                 "spherical": True,
-                "maxDistance": 10000000,
+                "maxDistance": 1000,
                 "near":  {"type": "Point",
-                         "coordinates": geo_center},
+                         "coordinates": geocenter},
                 "distanceField": "distance",
                 "key": "location" }}
-                ,{"$match": {"category" :interest}}
-                ,{"$project":{"_id":0,"brand":1,"distance":1,"address":1,"location":1}}
-                ,{"$group":{"_id": "$brand","distance":{"$avg":"$distance"}}}
+                ,{"$match": {"category" :interest_in}}
+                ,{"$project":{"_id":0,"brand":1,"category":1,"distance":1,"address":1,"location":1}}
+                #,{"$group":{"_id": "$brand","distance":{"$avg":"$distance"}}}
                 ,{"$limit":10}
             ])
             for i in b:
-                print(i)
+                if (i['brand'], i['category'], i['address'], i['location']) not in self.location_information:
+                    self.location_information.append((i['brand'], i['category'], i['address'], i['location']))
+                else :
+                    continue
+         #set
+
+            print(f"{self.loc} 주변의 {self.interested_in} 상위 {len(self.location_information)}개 검색결과 입니다.")
+            print()
+            for i in range(len(self.location_information)):
+                print(str(i+1).ljust(3), self.location_information[i][0])
+            print()
+            choice = input("번호를 입력해 바로가기 : ")
+            destination = self.location_information[int(choice)-1][3]
+            distance_between = haversine(self.current_location, destination)
+            print(f"목적지까지 {distance_between}km 만큼 떨어져 있습니다.\n해당 지역 날씨정보를 받으시겠습니까?")
+            weather = input("1 : 예 \n2 : 아니오\n")
+            if weather == '1':
+                self.weather_info(self.location_information[int(choice) - 1][2])
 
 
+    def weather_info(self,address):
+        result = ""
+        url = 'https://dapi.kakao.com/v2/local/search/address.json?query=' + address
+        rest_api_key = '2e05eca8e74f4d6b28c35a6ab2e4ae7c'
+        header = {'Authorization': 'KakaoAK ' + rest_api_key}
+        r = requests.get(url, headers=header)
+        if r.status_code == 200:
+            h_code = r.json()["documents"][0]["address"]['h_code']
+            result = h_code
+        else:
+            result = "ERROR[" + str(r.status_code) + "]"
+
+        url = f'https://www.kma.go.kr/wid/queryDFSRSS.jsp?zone={result}'
+        xml = requests.get(url).text
+        soup = BeautifulSoup(xml, 'html.parser')
+        current_wf = soup.data
+        time = current_wf.hour.string
+        temp_now = current_wf.temp.string
+        condition = current_wf.wfkor.string
+        wind = current_wf.wdkor.string
+        will_be_rainy = current_wf.pop.string
+        humidity = current_wf.reh.string
+        print(f"""현재 해당 장소 날씨 정보 브리핑해드리겠습니다.
+        \r현재 {temp_now}정도의 온도로 날씨는 {condition}입니다. 
+        \r바람은 {wind}쪽 방향으로 부는 가운데, 강수확률은 {will_be_rainy}% 입니다.
+        \r습도가 {humidity}%에 해당하니 적당히 잘 챙겨서 나가세요!\
+        """)
 
 
-
-    # def pymong(self):
-    #     # Connect
-    #     client = MongoClient('localhost', 27017)
+    def distance_between(self):
+        pass
     #     db = client.test
     #
     #     # Insert new document
@@ -161,10 +209,12 @@ class Gwanggaeto:
 
 
 if __name__ == '__main__':
-    a1 = Gwanggaeto("신당동","떡볶이")
-    center_point = a1.scrapping()
-    a1.interested_in = ""
-    a1.geo()
+    a1 = Gwanggaeto("개봉", "맛집")
+    a1.scrapping()
+
+    a1.geo(a1.interest_point,a1.interested_in)
 
 
-    #print(a1.interest_point)
+
+
+
