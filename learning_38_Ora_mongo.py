@@ -68,10 +68,12 @@ class OraDB:
         cur.execute("""SELECT COUNT(*), category from user1 group by category order by 1 DESC""")
 
 if __name__ == '__main__':
-    #a = Gwanggaeto("서초 주변 맛집")
-    #ora = OraDB(a.final_choice) #잊지마,all_info!
-    ora = OraDB()
-    ora.insight()
+    a = Gwanggaeto("교대 피자")
+    ora = OraDB(a.final_choice) #잊지마,all_info!
+    ora.insert()
+
+   # ora = OraDB()
+    #ora.insight()
 
 
 
