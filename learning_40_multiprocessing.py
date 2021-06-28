@@ -14,6 +14,7 @@ def square(number):
     print(f"Process ID : {process_id}")
     print(f"Proceess_name : {process_name}")
     print(f"The number {number} squares to {result}.")
+    
 
 if __name__ == '__main__':
     processes = []
@@ -23,3 +24,4 @@ if __name__ == '__main__':
         processes.append(process)
         #processes are spawned by creaing a Process object and then calling its start() method
         process.start()
+
