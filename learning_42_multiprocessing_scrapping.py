@@ -24,9 +24,9 @@ def scrapping(file,number):
 
 if __name__ == '__main__':
     t1 = time.time()
-    func = partial(scrapping,"writings/ladybug3.csv")
-    #for i in range(1,23):
-    #    scrapping("writings/ladybug2.csv",i) -> it takes 20 odds second.
+    func = partial(scrapping,"writings/ladybug4.csv")
+    # for i in range(1,23):
+    #    scrapping("writings/ladybug4.csv",i)-> it takes 20 odds second.
     with multiprocessing.Pool(23) as p:
         p.map(func,range(1,23))
     t2 = time.time()
