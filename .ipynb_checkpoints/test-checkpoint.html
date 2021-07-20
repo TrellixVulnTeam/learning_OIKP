@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_08f62ffd94354e0ebbef26c304a57787 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_08f62ffd94354e0ebbef26c304a57787" ></div>
+        
+</body>
+<script>    
+    
+            var map_08f62ffd94354e0ebbef26c304a57787 = L.map(
+                "map_08f62ffd94354e0ebbef26c304a57787",
+                {
+                    center: [37.512537099999996, 127.03452638000002],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9e88689fe1ec452692cc503eeffa261c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_08f62ffd94354e0ebbef26c304a57787);
+        
+    
+            var marker_64682b4237c14e6f8ddf32a1312a8700 = L.marker(
+                [37.4853569, 127.0322383],
+                {}
+            ).addTo(map_08f62ffd94354e0ebbef26c304a57787);
+        
+    
+            var icon_b0eb9925f95b4abb999940c553b6d1e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_64682b4237c14e6f8ddf32a1312a8700.setIcon(icon_b0eb9925f95b4abb999940c553b6d1e7);
+        
+    
+        var popup_af29c761ea8d4974bfdf971679b03913 = L.popup({"maxWidth": 500, "minWidth": 500});
+
+        
+            var i_frame_9a36f1b95f274e30971f3497bbcb7dd6 = $(`<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDI+7ZSE66az7LigIOyWkeyerOygkDwvaDI+PGI+4piFNC41MTwvYj48YnI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxocj48YnI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxiPuyjvOyGjCA6IOyEnOyauO2KueuzhOyLnCDshJzstIjqtawg7ISc7LSI64+ZIDEzNjMtMTA8L2I+PGJyPjxicj4KICAgICAgICAgICAgICAgICAgICAgICAgPGI+7Jq07JiB7Iuc6rCEIDog7Y+J7J28IDA4OjAwIC0gMjE6MDAgPC9iPjxicj48YnI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxiPuyghO2ZlOuyiO2YuCA6IDAyLTUyMS00MTQ4PC9iPjxicj48YnI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxiPuqxsOumrCA6IDI4LjFrbSBhd2F5Lg==" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;"></iframe></div></div>`)[0];
+            popup_af29c761ea8d4974bfdf971679b03913.setContent(i_frame_9a36f1b95f274e30971f3497bbcb7dd6);
+        
+
+        marker_64682b4237c14e6f8ddf32a1312a8700.bindPopup(popup_af29c761ea8d4974bfdf971679b03913)
+        ;
+
+        
+    
+    
+            marker_64682b4237c14e6f8ddf32a1312a8700.bindTooltip(
+                `<div>
+                     프릳츠 양재점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4dedde1a1374f1492c2283d5e9a60d3 = L.marker(
+                [37.5224955, 127.0242235],
+                {}
+            ).addTo(map_08f62ffd94354e0ebbef26c304a57787);
+        
+    
+            var icon_6abf7a10245a4862bec68156909951fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f4dedde1a1374f1492c2283d5e9a60d3.setIcon(icon_6abf7a10245a4862bec68156909951fe);
+        
+    
+        var popup_30fb9ebbe0024575aaa20ba74c6749a5 = L.popup({"maxWidth": 500, "minWidth": 500});
+
+        
+            var i_frame_c083f91c01904dea8460f86591eaee6d = $(`<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDI+7IaM7KeE64u0IOyLoOyCrOygkDwvaDI+PGI+4piFNC40ODwvYj48YnI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxocj48YnI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxiPuyjvOyGjCA6IOyEnOyauO2KueuzhOyLnCDqsJXrgqjqtawg7Iug7IKs64+ZIDU1MS0yMzwvYj48YnI+PGJyPgogICAgICAgICAgICAgICAgICAgICAgICA8Yj7smrTsmIHsi5zqsIQgOiDrp6TsnbwgMTE6MDAgLSAyMjowMCA8L2I+PGJyPjxicj4KICAgICAgICAgICAgICAgICAgICAgICAgPGI+7KCE7ZmU67KI7Zi4IDogMDItNTQyLTU1NTA8L2I+PGJyPjxicj4KICAgICAgICAgICAgICAgICAgICAgICAgPGI+6rGw66asIDogMjcuM2ttIGF3YXku" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;"></iframe></div></div>`)[0];
+            popup_30fb9ebbe0024575aaa20ba74c6749a5.setContent(i_frame_c083f91c01904dea8460f86591eaee6d);
+        
+
+        marker_f4dedde1a1374f1492c2283d5e9a60d3.bindPopup(popup_30fb9ebbe0024575aaa20ba74c6749a5)
+        ;
+
+        
+    
+    
+            marker_f4dedde1a1374f1492c2283d5e9a60d3.bindTooltip(
+                `<div>
+                     소진담 신사점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52a8b9b91dc247aabad0aa29a32c52d9 = L.marker(
+                [37.5044437, 127.0383342],
+                {}
+            ).addTo(map_08f62ffd94354e0ebbef26c304a57787);
+        
+    
+            var icon_3cfbd7f774a44de0bebf1d45ea7d7cb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_52a8b9b91dc247aabad0aa29a32c52d9.setIcon(icon_3cfbd7f774a44de0bebf1d45ea7d7cb3);
+        
+    
+        var popup_de39e33e5eba45138cdbd5485acd7de8 = L.popup({"maxWidth": 500, "minWidth": 500});
+
+        
+            var i_frame_4be62e245b524498923d488ed8296e09 = $(`<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDI+7Lm07Y6Y7JWE7JeQIOqwleuCqOygkDwvaDI+PGI+4piFNC40ODwvYj48YnI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxocj48YnI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxiPuyjvOyGjCA6IOyEnOyauO2KueuzhOyLnCDqsJXrgqjqtawg7Jet7IK864+ZIDY3MS0zMTwvYj48YnI+PGJyPgogICAgICAgICAgICAgICAgICAgICAgICA8Yj7smrTsmIHsi5zqsIQgOiDtj4nsnbwgMDA6MDAgLSAyNDowMCA8L2I+PGJyPjxicj4KICAgICAgICAgICAgICAgICAgICAgICAgPGI+7KCE7ZmU67KI7Zi4IDogMDEwLTU4OTMtNTM3OTwvYj48YnI+PGJyPgogICAgICAgICAgICAgICAgICAgICAgICA8Yj7qsbDrpqwgOiAyOC44a20gYXdheS4=" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;"></iframe></div></div>`)[0];
+            popup_de39e33e5eba45138cdbd5485acd7de8.setContent(i_frame_4be62e245b524498923d488ed8296e09);
+        
+
+        marker_52a8b9b91dc247aabad0aa29a32c52d9.bindPopup(popup_de39e33e5eba45138cdbd5485acd7de8)
+        ;
+
+        
+    
+    
+            marker_52a8b9b91dc247aabad0aa29a32c52d9.bindTooltip(
+                `<div>
+                     카페아에 강남점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4be1dd598fd24a408e7e19a1c012e006 = L.marker(
+                [37.524193, 127.0383006],
+                {}
+            ).addTo(map_08f62ffd94354e0ebbef26c304a57787);
+        
+    
+            var icon_623c930732d349598e5d7d8382c093b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4be1dd598fd24a408e7e19a1c012e006.setIcon(icon_623c930732d349598e5d7d8382c093b2);
+        
+    
+        var popup_6aa0e368b71d4d56b5962daab49d2a74 = L.popup({"maxWidth": 500, "minWidth": 500});
+
+        
+            var i_frame_c97b347644074efc9d6e7d037db112d9 = $(`<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDI+7Lm07Y6YIOuFuO2LsOuTnCDssq3ri7Q8L2gyPjxiPuKYhTQuNDM8L2I+PGJyPgogICAgICAgICAgICAgICAgICAgICAgICA8aHI+PGJyPgogICAgICAgICAgICAgICAgICAgICAgICA8Yj7so7zshowgOiDshJzsmrjtirnrs4Tsi5wg6rCV64Ko6rWsIOyLoOyCrOuPmSA2NTQtOTwvYj48YnI+PGJyPgogICAgICAgICAgICAgICAgICAgICAgICA8Yj7smrTsmIHsi5zqsIQgOiDrp6TsnbwgMDk6MDAgLSAyMTowMCA8L2I+PGJyPjxicj4KICAgICAgICAgICAgICAgICAgICAgICAgPGI+7KCE7ZmU67KI7Zi4IDogMDcwLTg4NjAtOTM3NzwvYj48YnI+PGJyPgogICAgICAgICAgICAgICAgICAgICAgICA8Yj7qsbDrpqwgOiAyOC44N2ttIGF3YXku" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;"></iframe></div></div>`)[0];
+            popup_6aa0e368b71d4d56b5962daab49d2a74.setContent(i_frame_c97b347644074efc9d6e7d037db112d9);
+        
+
+        marker_4be1dd598fd24a408e7e19a1c012e006.bindPopup(popup_6aa0e368b71d4d56b5962daab49d2a74)
+        ;
+
+        
+    
+    
+            marker_4be1dd598fd24a408e7e19a1c012e006.bindTooltip(
+                `<div>
+                     카페 노티드 청담
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_441b29081dac491d900e14559d74c925 = L.marker(
+                [37.5261964, 127.0395353],
+                {}
+            ).addTo(map_08f62ffd94354e0ebbef26c304a57787);
+        
+    
+            var icon_23fc94fead0449d49841e2465ff3abb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_441b29081dac491d900e14559d74c925.setIcon(icon_23fc94fead0449d49841e2465ff3abb7);
+        
+    
+        var popup_6c87d41526b54c099528e8862b2c8639 = L.popup({"maxWidth": 500, "minWidth": 500});
+
+        
+            var i_frame_bb9a5c0d3e534bfa842bc0ae1c71d6a6 = $(`<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDI+7JWM7Lm07Y6YPC9oMj48Yj7imIU0LjMzPC9iPjxicj4KICAgICAgICAgICAgICAgICAgICAgICAgPGhyPjxicj4KICAgICAgICAgICAgICAgICAgICAgICAgPGI+7KO87IaMIDog7ISc7Jq47Yq567OE7IucIOqwleuCqOq1rCDsi6Dsgqzrj5kgNjY0LTE3PC9iPjxicj48YnI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxiPuyatOyYgeyLnOqwhCA6IOunpOydvCAxMTozMCAtIDIyOjAwIExhc3QgT3JkZXIgMjE6MDA8L2I+PGJyPjxicj4KICAgICAgICAgICAgICAgICAgICAgICAgPGI+7KCE7ZmU67KI7Zi4IDogMDItNTExLTY2MTI8L2I+PGJyPjxicj4KICAgICAgICAgICAgICAgICAgICAgICAgPGI+6rGw66asIDogMjkuMDJrbSBhd2F5Lg==" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;"></iframe></div></div>`)[0];
+            popup_6c87d41526b54c099528e8862b2c8639.setContent(i_frame_bb9a5c0d3e534bfa842bc0ae1c71d6a6);
+        
+
+        marker_441b29081dac491d900e14559d74c925.bindPopup(popup_6c87d41526b54c099528e8862b2c8639)
+        ;
+
+        
+    
+    
+            marker_441b29081dac491d900e14559d74c925.bindTooltip(
+                `<div>
+                     알카페
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75e86340752d42df86bce047950004a6 = L.marker(
+                [37.512537099999996, 127.03452638000002],
+                {}
+            ).addTo(map_08f62ffd94354e0ebbef26c304a57787);
+        
+    
+            var icon_caa59362a64c449394ee8a3c9b9896c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_75e86340752d42df86bce047950004a6.setIcon(icon_caa59362a64c449394ee8a3c9b9896c2);
+        
+    
+        var popup_de01c084da9641b0a329ca75af7e3219 = L.popup({"maxWidth": 500, "minWidth": 500});
+
+        
+            var html_ffa6ffcc30b44814b500fd094f948907 = $(`<div id="html_ffa6ffcc30b44814b500fd094f948907" style="width: 100.0%; height: 100.0%;"><h2><실시간 기상정보></h2><br><br><hr><h4><b>현재 해당 장소 날씨 정보 브리핑해드리겠습니다.<br>                         
+현재 22.0정도의 온도로 날씨는 '소나기'입니다. <br>                         
+바람은 동쪽 방향으로 부는 가운데, 강수확률은 60% 입니다.<br>                         
+습도가 85%에 해당하니 적당히 잘 챙겨서 나가세요!</b></h4><br>                        </div>`)[0];
+            popup_de01c084da9641b0a329ca75af7e3219.setContent(html_ffa6ffcc30b44814b500fd094f948907);
+        
+
+        marker_75e86340752d42df86bce047950004a6.bindPopup(popup_de01c084da9641b0a329ca75af7e3219)
+        ;
+
+        
+    
+    
+            marker_75e86340752d42df86bce047950004a6.bindTooltip(
+                `<div>
+                     Weather Forecast
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
