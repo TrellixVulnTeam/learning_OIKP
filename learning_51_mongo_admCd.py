@@ -36,7 +36,7 @@ class geoMongo:
 
     def SGIS(self,adm_cd):
         api_url = "https://sgisapi.kostat.go.kr/OpenAPI3/boundary/hadmarea.geojson"
-        params =f"?accessToken=97f60c4b-967d-4fbf-9bfe-293508fa11d3&year=2019&adm_cd={adm_cd}"
+        params =f"?accessToken=9fac83fd-f771-4690-8678-440b803a8c9b&year=2019&adm_cd={adm_cd}"
         url_request= requests.get(api_url+params).json()
 
         if url_request['errMsg'] == "검색결과가 존재하지 않습니다.":
@@ -98,7 +98,7 @@ class geoMongo:
         amd_df = pd.read_csv('./writings/amdcd.csv',encoding='utf-8')
         extract_code = amd_df['코드'].values
         failure = []
-        for code in extract_code:
+        for code in extract_code[2767:]:
             if self.SGIS(code):
                 name, geometry = self.SGIS(code)
                 try:
@@ -115,6 +115,11 @@ if __name__ == '__main__':
     db = geoMongo()
     db.create_neiborhood()
 
+    # amd_df = pd.read_csv('./writings/amdcd.csv', encoding='utf-8')
+    # extract_code = amd_df['코드'].values
+    # print(extract_code[2767:])
+
+#    3644036
 
 
 
