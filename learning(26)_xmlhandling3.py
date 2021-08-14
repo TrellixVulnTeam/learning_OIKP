@@ -4,7 +4,7 @@ import xml.etree.ElementTree as et
 
 
 def test():
-    tree = et.ElementTree(file='writings/fruit.xml')
+    tree = et.ElementTree(file='files/fruit.xml')
     root = tree.getroot()
     for basket02 in root.iter('basket'):
         if basket02.attrib['classification'] =='vegetable':
@@ -14,7 +14,7 @@ def test():
 
 
 def test01():
-    tree = et.ElementTree(file='writings/fruit.xml')
+    tree = et.ElementTree(file='files/fruit.xml')
     root = tree.getroot()
     for origin in root.findall('origin'):
         if origin.attrib['name'] =='Andes': #origin의 name 속성값이 Andes라면
@@ -28,7 +28,7 @@ def test01():
             print(res.get('name'),format(total,',')) # this format function makes it 100,000,000
 
         #변경된 내용을 파일로 출력한다.
-    tree.write("writings/fruit_res.xml",encoding="utf-8",xml_declaration=True) #바뀐 내용이 저장된다.
+    tree.write("files/fruit_res.xml",encoding="utf-8",xml_declaration=True) #바뀐 내용이 저장된다.
 
 
 if __name__ == '__main__':

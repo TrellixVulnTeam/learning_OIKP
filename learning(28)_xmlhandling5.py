@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as et
 
 def XML():
-    tree = et.ElementTree(file="writings/Doit.xml")
+    tree = et.ElementTree(file="files/Doit.xml")
     print(type(tree))
     root = tree.getroot()
     print(root.tag)

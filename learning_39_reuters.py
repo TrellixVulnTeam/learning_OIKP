@@ -11,7 +11,7 @@ def top15():
     url_r = requests.get(url,headers=headers)
     list_article = url_r.json()['result']['articles']
     articles=[]
-    with open("writings/article_url.csv",'w',encoding='utf-8') as f:
+    with open("files/article_url.csv",'w',encoding='utf-8') as f:
         csv_writer = csv.writer(f)
         for i in list_article:
             title = i['title']
@@ -24,7 +24,7 @@ def top15():
 
 
 def soup():
-    with open("writings/article_url.csv",'r',encoding='utf-8') as f:
+    with open("files/article_url.csv",'r',encoding='utf-8') as f:
         for i in f.readlines():
             url = requests.get(i,headers={'User-Agent':("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36")})
 

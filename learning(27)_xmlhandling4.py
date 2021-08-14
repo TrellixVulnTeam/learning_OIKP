@@ -2,7 +2,7 @@ import xml.dom.minidom
 import xml.etree.ElementTree as et
 
 def test():
-    dom = xml.dom.minidom.parse("writings/Doit.xml")
+    dom = xml.dom.minidom.parse("files/Doit.xml")
     print(dom.documentElement.tagName) #태그네임
     #node객체로 접근해서 데이터 호출
     for node in dom.documentElement.childNodes: #자식노드
@@ -20,7 +20,7 @@ def test():
 
 #test()
 def test01():
-    tree = et.ElementTree(file="writings/Doit.xml")
+    tree = et.ElementTree(file="files/Doit.xml")
     root = tree.getroot()
     print(root.tag)
     for site in root.findall('site'):
@@ -31,7 +31,7 @@ def test01():
         name = site.find('name').text
         url = site.find('url').text
         print(" > ".join([site.tag,name,url]))
-    tree.write("writings/Doit_res.xml",encoding='utf-8',xml_declaration=True)
+    tree.write("files/Doit_res.xml",encoding='utf-8',xml_declaration=True)
 
 
 test01()

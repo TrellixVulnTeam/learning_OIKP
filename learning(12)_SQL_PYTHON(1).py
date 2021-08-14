@@ -10,7 +10,7 @@ def connector():
 
 
 def write01(query):
-    path = "C:/learnings/writings/"
+    path = "C:/learnings/files/"
     cursor = connector()
     cursor.execute(query)
     file = open(path+'a.txt','w',encoding='utf-8')
@@ -19,7 +19,7 @@ def write01(query):
     file.close()
 
 def write02(query): #pickling 형식 구현해보자.
-    path = "C:/learnings/writings/"
+    path = "C:/learnings/files/"
     cursor = connector()
     cursor.execute(query)
     cols = [col[0] for col in cursor.description]
@@ -37,7 +37,7 @@ def write02(query): #pickling 형식 구현해보자.
             break
 
 def write03(query): #json 형식 구현
-    path = "C:/learnings/writings/"
+    path = "C:/learnings/files/"
     cursor = connector()
     cursor.execute(query)
     cols = [col[0] for col in cursor.description]
@@ -52,14 +52,14 @@ def write03(query): #json 형식 구현
 
 
 def read():
-    with open("C:/learnings/writings/a.txt",'r',encoding='utf-8') as f:
+    with open("C:/learnings/files/a.txt",'r',encoding='utf-8') as f:
         line = f.readline()
         while line:
             print(line,end = '\r')
             line = f.readline()
 
 def read_pickle():
-    with open("C:/learnings/writings/b.txt",'rb') as f: #binarized.
+    with open("C:/learnings/files/b.txt",'rb') as f: #binarized.
         pic = pickle.load(f)
         pics =[]
         while pic:
