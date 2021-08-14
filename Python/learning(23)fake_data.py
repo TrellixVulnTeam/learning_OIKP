@@ -113,7 +113,7 @@ nested_ppl=list(zip(first_name,last_name,create_rndm_skills(skills), state_rnd,s
 cols=['first_name','last_name','skills','state','specialty_exper','relocation']
 job_seekers_=pd.DataFrame(nested_ppl,columns=cols,)
 
-pd.DataFrame.to_csv(job_seekers_,'files/job_seekers.csv')
+pd.DataFrame.to_csv(job_seekers_, '../files/job_seekers.csv')
 job_seekers_.head()
 
 print(job_seekers_)

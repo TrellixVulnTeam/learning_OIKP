@@ -33,3 +33,5 @@ tqdm
 xlrd
 yahoo_earnings_calendar
 yfinance
+cx_Oracle
+haversine

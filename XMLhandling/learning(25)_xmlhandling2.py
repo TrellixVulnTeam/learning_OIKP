@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as et   #파이썬 모듈
 from collections.abc import Iterable
 def Test():
-    friend = et.parse('files/myfriend.xml')
+    friend = et.parse('../files/myfriend.xml')
     friends = friend.findall("address")
     for res in friends :
         print(res.find("name").text , ",",res.find("addr").text)
@@ -9,7 +9,7 @@ def Test():
     print('============================')
 
 def Test01():
-    tree = et.ElementTree(file='files/fruit.xml') #파일로 불러오기.
+    tree = et.ElementTree(file='../files/fruit.xml') #파일로 불러오기.
     root =tree.getroot() #루트 주소 잡고
 
     for child in root:

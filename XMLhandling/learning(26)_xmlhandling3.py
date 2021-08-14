@@ -4,7 +4,7 @@ import xml.etree.ElementTree as et
 
 
 def test():
-    tree = et.ElementTree(file='files/fruit.xml')
+    tree = et.ElementTree(file='../files/fruit.xml')
     root = tree.getroot()
     for basket02 in root.iter('basket'):
         if basket02.attrib['classification'] =='vegetable':
@@ -14,7 +14,7 @@ def test():
 
 
 def test01():
-    tree = et.ElementTree(file='files/fruit.xml')
+    tree = et.ElementTree(file='../files/fruit.xml')
     root = tree.getroot()
     for origin in root.findall('origin'):
         if origin.attrib['name'] =='Andes': #origin의 name 속성값이 Andes라면
