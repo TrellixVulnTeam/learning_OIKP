@@ -1,0 +1,14 @@
+version: '3'
+services:
+  web-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9994:5000"
+    volumes: 
+      - /home/migo/.local #To separate dependencies
+      - .:/home/migo
+  mongo-server:
+    image: 'mongo'
+    restart: always
