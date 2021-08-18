@@ -58,3 +58,5 @@ wants_to_find, score = {"$text": {"$search": what_you_want}}, {"LEVEL": {"$meta"
 
 for i in col.find(wants_to_find, score):
     pprint(i)
+
+
