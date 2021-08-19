@@ -11,9 +11,12 @@ class Array:
             return self.dic[key]
 
 
-if __name__ == '__main__':
 
+
+
+if __name__ == '__main__':
     a = Array()
+
 
     #likewise, we can access data through key : value
     print(a[1])
