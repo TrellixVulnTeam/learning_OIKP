@@ -1,29 +1,21 @@
-import os
-import re
-
-root = "C:\Learnings\Python"
-for i, filename in enumerate(os.listdir(root)):
-    rename = "".join(filename.split('_',maxsplit=1)[1:])
+class Array:
+    def __init__(self):
+        self.arr = [1,2,3,4,5,6,7,8]
+        self.dic = {'a':123,"b":53453}
 
 
-    #print(os.path.join("",filename))
-
-#os.path
-
-class A:
-    def __init__(self,root,item):
-        self.root = root
-        self.file_list = []
-        for filename in os.listdir(root):
-            self.file_list.append(os.path.join(root, filename))
-
-    def __len__(self):
-        return len(self.file_list)
-
-    def __getitem__(self, idx):  # 하나의 데이터를 반환
-        file_dir = self.file_list[idx]
-        return print(file_dir)
+    def __getitem__(self,key):
+        if isinstance(key,int):
+            return self.arr[key]
+        if isinstance(key,str):
+            return self.dic[key]
 
 
 if __name__ == '__main__':
-    pass
+
+    a = Array()
+
+    #likewise, we can access data through key : value
+    print(a[1])
+    print(a['a'])
+
