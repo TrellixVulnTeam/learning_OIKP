@@ -1,5 +1,5 @@
 import cx_Oracle
-from learning_37_request import Gwanggaeto
+from lrn20_request import Gwanggaeto
 import json
 from datetime import datetime
 
