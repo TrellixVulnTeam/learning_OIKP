@@ -1,0 +1,9 @@
+Flask==2.0.1
+
+Flask-RESTful==0.3.9
+pymongo==3.12.0
+requests==2.26.0
+pytz==2021.1
+aniso8601==8.0.0
+
+Faker
