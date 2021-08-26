@@ -26,6 +26,8 @@
     - GeoInformation
     - Aggregation
     - INDEXING
+    - Transaction
+    - ReplicaSet
     
 4) Docker
     - Dockerfile
