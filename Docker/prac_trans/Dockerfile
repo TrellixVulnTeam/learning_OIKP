@@ -18,4 +18,3 @@ COPY --chown=migo:migo . .
 
 
 CMD ["python","web.py"]  
-#Use " instead of ' in CMD. 
