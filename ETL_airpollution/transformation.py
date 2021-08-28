@@ -37,9 +37,8 @@ def check_if_valid(df:pd.DataFrame)->bool:
     for timestamp in timestamps:
         #binary search
         if binary_search(existing_data,len(existing_data),timestamp):
-            pass
-        else:
             raise Exception(f"Primary key constrain has been violoated.")
+
 
 
 
@@ -56,9 +55,9 @@ def binary_search(A, n, T) :
         elif A[m] > T :
             R = m - 1
         else:
-            return False
+            return True
     else:
-        return True
+        return False
 
 
 
@@ -67,3 +66,4 @@ if __name__ == '__main__':
     #check_if_valid(extraction.weather_extract())
     df = pd.read_csv("air_pollution.csv")
     check_if_valid(extraction.weather_extract(1))
+
