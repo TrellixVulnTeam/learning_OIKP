@@ -6,7 +6,7 @@ import datetime
 
 
 
-def weather_extract() -> pd.DataFrame():
+def weather_extract(day:int) -> pd.DataFrame():
     key = json.loads(open("C:\data\key.json","r").read())
     KEY = key['weather']
     LAT = 37.44
@@ -14,7 +14,7 @@ def weather_extract() -> pd.DataFrame():
 
     #handling timedelta, unixtime(timestamp)
     today = datetime.datetime.now()
-    yesterday = today - datetime.timedelta(days=365)
+    yesterday = today - datetime.timedelta(days=day)
     unix_time_yesterday = int(yesterday.timestamp())
     unix_time_today = int(today.timestamp())
 
@@ -34,10 +34,12 @@ def weather_extract() -> pd.DataFrame():
         hash["pm2_5"].append(i['components']['pm2_5'])
         hash["pm10"].append(i['components']['pm10'])
         hash["ozone"].append(i['components']['o3'])
+
     df = pd.DataFrame(hash)
     return df
 
 
 
 if __name__ == '__main__':
-   print(weather_extract())
+    df  =weather_extract()
+    df.to_csv("air_pollution.csv", index=False)
