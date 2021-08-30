@@ -1,4 +1,4 @@
-import requests
+import reques
 import multiprocessing
 from bs4 import BeautifulSoup as bs
 import csv
@@ -8,7 +8,7 @@ from functools import partial #to put more than or equal to two variables.
 def scrapping(file,number):
     url = f"""https://home.ebs.co.kr/ladybug/board/6/10059819/oneBoardList?c.page={number}&hmpMnuId=106&searchCondition=
     &searchConditionValue=0&searchKeywordValue=0&searchKeyword=&bbsId=10059819&"""
-    a = requests.get(url).content
+    a = reques.get(url).content
     soup = bs(a,'html.parser')
 
     with open(file,'a',encoding='utf-8') as f:

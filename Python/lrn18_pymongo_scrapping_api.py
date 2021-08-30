@@ -4,7 +4,7 @@ import undetected_chromedriver.v2 as uc
 import time
 import geocoder
 from functools import reduce
-import requests
+import reques
 from pymongo import MongoClient
 from haversine import haversine
 
@@ -89,7 +89,7 @@ class Gwanggaeto:
         url = 'https://dapi.kakao.com/v2/local/search/address.json?query=' + address
         rest_api_key = '2e05eca8e74f4d6b28c35a6ab2e4ae7c'
         header = {'Authorization': 'KakaoAK ' + rest_api_key}
-        r = requests.get(url, headers=header)
+        r = reques.get(url, headers=header)
 
         if r.status_code == 200:
             try:
@@ -149,7 +149,7 @@ class Gwanggaeto:
         url = 'https://dapi.kakao.com/v2/local/search/address.json?query=' + address
         rest_api_key = '2e05eca8e74f4d6b28c35a6ab2e4ae7c'
         header = {'Authorization': 'KakaoAK ' + rest_api_key}
-        r = requests.get(url, headers=header)
+        r = reques.get(url, headers=header)
         if r.status_code == 200:
             h_code = r.json()["documents"][0]["address"]['h_code']
             result = h_code
@@ -157,7 +157,7 @@ class Gwanggaeto:
             result = "ERROR[" + str(r.status_code) + "]"
 
         url = f'https://www.kma.go.kr/wid/queryDFSRSS.jsp?zone={result}'
-        xml = requests.get(url).text
+        xml = reques.get(url).text
         soup = BeautifulSoup(xml, 'html.parser')
         current_wf = soup.data
         time = current_wf.hour.string

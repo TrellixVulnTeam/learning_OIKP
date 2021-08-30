@@ -48,6 +48,7 @@ def check_if_valid(df:pd.DataFrame)->bool:
 def binary_search(A, n, T) :
     L = 0
     R = n - 1
+    takes = 0
     while L <= R :
         m = int((L + R) / 2)
         if A[m] < T :

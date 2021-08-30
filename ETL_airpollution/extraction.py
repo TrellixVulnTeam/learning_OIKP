@@ -41,5 +41,6 @@ def weather_extract(day:int) -> pd.DataFrame():
 
 
 if __name__ == '__main__':
-    df  =weather_extract()
-    df.to_csv("air_pollution.csv", index=False)
+    df  =weather_extract(1)
+    # df.to_csv("air_pollution.csv", index=False)
+    

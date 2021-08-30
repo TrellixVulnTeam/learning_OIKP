@@ -1,7 +1,7 @@
 from faker import Faker # Crete fake People
 import pandas as pd # Dataframes
 import random # random number generation
-import requests  # grab web-page
+import reques  # grab web-page
 from bs4 import BeautifulSoup as bsopa  #parse web-page
 import re # regex parsing
 import pymongo as pym
@@ -38,7 +38,7 @@ for i in range(500):
 
 
 
-response=requests.get("https://www.softschools.com/social_studies/state_abbreviations/")
+response=reques.get("https://www.softschools.com/social_studies/state_abbreviations/")
 
 #response.status_code  checking that the request was (ok=200)
 
