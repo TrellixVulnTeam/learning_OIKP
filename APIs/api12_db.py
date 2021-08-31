@@ -40,6 +40,9 @@ video_put_args.add_argument("likes",type=int,help="Likes on the video is require
 
 
 
+
+#If for some reason your data object doesn’t have an attribute in your fields list,
+# you can specify a default value to return instead of None.
 resource_fields = {
     "id" : fields.Integer,
     "name" : fields.String,
