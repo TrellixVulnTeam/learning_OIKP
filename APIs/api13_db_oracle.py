@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask , render_template
 from flask_restful import Resource , Api ,abort,reqparse,marshal_with,fields
 from flask_sqlalchemy import SQLAlchemy
 
@@ -20,7 +20,7 @@ class orapratice(db.Model):
     def __repr__(self):
         return f"id={self.id}, name={self.name}"
 
-db.create_all()
+#db.create_all()
 
 
 resource_fields = {
@@ -55,7 +55,11 @@ class controller(Resource):
 
 api.add_resource(controller,"/registration/<int:id>")
 
+@app.route('/',methods=['GET'])
+def index():
+    testData = {"Json":1234,"Bson":0b101011}
 
+    return render_template("/css02_style.html", testDataHtml=testData)
 
 if __name__ == '__main__':
     app.run(debug=True)

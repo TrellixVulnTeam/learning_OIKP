@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<!-- css, html파일을 분리
+	이렇게 하여 html코드의 가독성을 높이고
+	css파일의 재사용성을 높일 수 있다.
+
+	어떻게 html파일에서 css파일을 연결하는가? 
+rel :: this defines the relationship between a linked resource and the current document
+href= path
+
+ -->
+ 
+
+<!-- <style type="text/css">
+   .phara{font-size: 30pt; }
+</style>  override 가능.-->
+
+
+</head>
+<body>
+<h2>CSS3에서 선택자 지정하는 방법과 CSS 선언방법</h2>
+<p class="phara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada est eget orci dapibus fringilla. Suspendisse at congue nisl, pulvinar sollicitudin quam. In luctus dapibus vulputate. Curabitur pretium ex quis felis volutpat consequat. Sed non leo eu turpis iaculis aliquet. Etiam finibus eleifend neque, eu consectetur mauris fermentum non. Mauris tempor turpis in eros sodales ornare. Nam lectus est, pharetra eu ipsum quis, bibendum porttitor nunc.</p>
+<p id="ptag2">Proin at magna molestie dolor placerat venenatis faucibus vehicula massa. Cras ultricies mauris quam, ac posuere elit sodales nec. Morbi eget diam quis ligula bibendum blandit. Nullam a metus vitae est cursus sollicitudin eu at purus. Etiam bibendum ac velit pellentesque porta. In quam ipsum, rutrum in interdum a, fringilla a lorem. Quisque lorem ligula, vulputate non consectetur sit amet, auctor sed augue. Aenean facilisis justo sed scelerisque consequat. Nulla orci diam, pulvinar in massa nec, rutrum tristique enim. Nullam et pellentesque risus, a cursus mi.</p>
+<p class="phara">Praesent est mauris, sagittis a diam id, placerat luctus lectus. Suspendisse mattis leo eu leo viverra molestie. Nunc consectetur tellus non facilisis viverra. Maecenas eu aliquam odio. Ut aliquet, risus at venenatis tempor, sapien ante ultricies dolor, non accumsan turpis diam in justo. Morbi non lorem sapien. Sed in odio ipsum. Nam nec nunc in ligula porttitor commodo sit amet eu lectus. Duis ex orci, viverra a orci scelerisque, consectetur sodales nisi. Morbi ultrices ut eros elementum viverra. Fusce sollicitudin blandit urna, vitae ullamcorper mauris efficitur non.</p>
+<p> And This is Accepted Data : {{testDataHtml}}
+</p>
+</body>
+</html>
+
+<!-- 
+위의 방식은 너무 많은 css를 요구한다... 
+외부 코드로 모듈화시켜 참조시키므로 재사용성을 높이자.
+
+ -->
