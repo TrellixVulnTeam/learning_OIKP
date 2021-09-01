@@ -1,6 +1,4 @@
-import json
-import requests
-from flask import Flask , jsonify
+from flask import Flask
 from flask_restful import reqparse, Api, Resource, marshal_with, fields, abort
 from flask_sqlalchemy import SQLAlchemy
 from pymongo import MongoClient
@@ -61,7 +59,7 @@ class page_contoller(Resource):
         instance = userlogin(id=id,name=args['name'],password=args['password'])
         db.session.add(instance)
         db.session.commit()
-        return 201
+        return instance,201
 api.add_resource(page_contoller,"/<int:id>")
 
 

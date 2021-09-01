@@ -1,10 +1,10 @@
 import requests
 import json
-data = [{"id":1,"password":1234225,"name":"Jacky"},
-        {"id":2,"password":12345,"name":"Chan"},
-        {"id":3,"password":16225,"name":"Key"},
-        {"id":4,"password":8234225,"name":"Kian"},
-        {"id":5,"password":5234225,"name":"Kon"},
+data = [{"id":11,"password":12345,"name":"Jacy"},
+        {"id":12,"password":12345,"name":"Cha"},
+        {"id":13,"password":16225,"name":"Ke"},
+        {"id":14,"password":82325,"name":"Kin"},
+        {"id":15,"password":52225,"name":"Ohn"},
         ]
 
 BASE = "http://127.0.0.1:5000/"
