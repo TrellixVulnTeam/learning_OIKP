@@ -15,7 +15,7 @@
 1) Python
     - Syntax
     - OOP model
-    - How to extract, process, load data
+    - ETL
   
 2) Oracle
     - PLSQL 
@@ -32,3 +32,5 @@
 4) Docker
     - Dockerfile
     - docker-compose
+
+5) Spark
