@@ -18,3 +18,6 @@ def validation(function=None):
         return function()
 
 validation(lambda: argparse(1,"This is so hard to understand"))
+
+
+
