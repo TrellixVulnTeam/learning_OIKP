@@ -4,7 +4,7 @@ import undetected_chromedriver.v2 as uc
 import time
 import geocoder
 from functools import reduce
-import reques
+import requests
 from pymongo import MongoClient
 from haversine import haversine
 
